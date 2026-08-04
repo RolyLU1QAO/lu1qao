@@ -140,6 +140,17 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   border-left: none !important; /* Limpia líneas verticales molestas entre columnas */
 }
 
+/* --- CORRECCIÓN DE CONTRASTE EN DETALLES APRS --- */
+#main .post ul.alt li,
+#main .post ul.alt strong {
+  color: #e0e0e0 !important;
+}
+
+#main .post ul.alt code {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+}
 /* 3. Ajustar el espacio entre el texto principal y la grilla de posts */
 #main > .post {
   margin-bottom: 0 !important;
