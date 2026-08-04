@@ -16,33 +16,61 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   box-shadow: inset 0 0 0 1px #b2b5b6 !important;
 }
 
-/* --- NUEVO DISEÑO PARA EL FOOTER OSCURO --- */
+/* --- CORRECCIÓN DEFINITIVA PARA EL FOOTER OSCURO --- */
 #footer {
-  background-color: #1a1c23 !important; /* Fondo oscuro armónico con el sitio */
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 3rem 0 2rem 0 !important;
+  background-color: #121318 !important;
+  color: #c0c0c0 !important;
 }
 
-/* Forzar que las cajas internas no tengan bordes blancos molestos */
-#footer section {
-  border-top-color: rgba(255, 255, 255, 0.08) !important;
+#footer input, 
+#footer select, 
+#footer textarea {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-#footer .split.contact > section {
-  border-top-color: rgba(255, 255, 255, 0.08) !important;
+#footer h1, 
+#footer h2, 
+#footer h3, 
+#footer h4, 
+#footer h5, 
+#footer h6, 
+#footer strong, 
+#footer b {
+  color: #ffffff !important;
 }
 
-/* Mejorar el color y contraste de los textos del footer */
-#footer h3, #footer p, #footer label, #footer a {
-  color: #d8d8d8 !important;
+#footer p, 
+#footer li, 
+#footer span, 
+#footer label {
+  color: #cccccc !important;
+}
+
+#footer a {
+  color: #ffffff !important;
+  border-bottom-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 #footer a:hover {
   color: #ffffff !important;
-  text-decoration: underline;
+  border-bottom-color: #ffffff !important;
 }
-/* Efecto cuando pasas el mouse por encima (más claro todavía) */
-input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-  background-color: #ffffff !important;
-  color: #000000 !important;
+
+/* Limpiar bordes blancos molestos de las secciones internas del footer */
+#footer section, 
+#footer .split.contact > section {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: transparent !important;
+}
+
+/* Fondo del copyright de más abajo también oscuro */
+#copyright {
+  background-color: #0d0e12 !important;
+  color: #999999 !important;
+}
+
+#copyright a {
+  color: #cccccc !important;
 }
