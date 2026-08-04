@@ -51,20 +51,18 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+							<article>
+    <header>
+        <span class="date" id="reloj-utc">Cargando fecha UTC...</span>
+        <h2><a href="#">¿Qué es ser<br />
+        radioaficionado?</a></h2>
+    </header>
+    <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+    <p>Más allá de las antenas, los equipos y la técnica, ser radioaficionado es abrazar un apasionante hobby que desafía las distancias. Es tejer hilos invisibles en el aire, convertir el silencio del éter en un puente solidario y descubrir que, en este mundo acelerado, todavía es posible conectar corazones a través de una simple frecuencia.</p>
+    <ul class="actions special">
+        <li><a href="#" class="button">Continuar</a></li>
+    </ul>
+</article>
 
 						<!-- Posts -->
 							<section class="posts">
@@ -223,6 +221,31 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<script>
+  function actualizarUTC() {
+    const ahora = new Date();
+    
+    // Formato de fecha y hora UTC
+    const opciones = { 
+      timeZone: 'UTC', 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
+    };
+
+    const fechaHoraUTC = ahora.toLocaleDateString('es-ES', opciones);
+    document.getElementById('reloj-utc').innerText = fechaHoraUTC + ' UTC';
+  }
+
+  // Ejecutar al cargar y actualizar cada segundo
+  actualizarUTC();
+  setInterval(actualizarUTC, 1000);
+</script>
 
 	</body>
 </html>
