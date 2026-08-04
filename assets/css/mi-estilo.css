@@ -1,1 +1,10 @@
 
+/* Estilos personalizados para unificar el fondo oscuro en todo el sitio */
+body, #main, .post, article {
+  background-color: #1e1f24 !important;
+  color: #e2e2e2 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color: #f0f0f0 !important;
+}
