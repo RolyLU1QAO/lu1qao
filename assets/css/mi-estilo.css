@@ -16,6 +16,31 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   box-shadow: inset 0 0 0 1px #b2b5b6 !important;
 }
 
+/* --- NUEVO DISEÑO PARA EL FOOTER OSCURO --- */
+#footer {
+  background-color: #1a1c23 !important; /* Fondo oscuro armónico con el sitio */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3rem 0 2rem 0 !important;
+}
+
+/* Forzar que las cajas internas no tengan bordes blancos molestos */
+#footer section {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+#footer .split.contact > section {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Mejorar el color y contraste de los textos del footer */
+#footer h3, #footer p, #footer label, #footer a {
+  color: #d8d8d8 !important;
+}
+
+#footer a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
 /* Efecto cuando pasas el mouse por encima (más claro todavía) */
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
   background-color: #ffffff !important;
