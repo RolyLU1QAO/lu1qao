@@ -84,3 +84,39 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 #nav > ul.icons li a:hover {
   color: #d0d3d4 !important;
 }
+
+/* --- CORRECCIONES DE ESPACIOS Y GRILLA EN ACTIVIDADES --- */
+
+/* 1. Achicar el espacio vacío gigante en la cabecera de las páginas */
+#main > .post {
+  padding: 2rem 3rem 1.5rem 3rem !important; /* Reduce drásticamente el espacio superior e inferior */
+}
+
+#main > .post header.major {
+  margin-bottom: 1.5rem !important;
+}
+
+/* 2. Forzar que la sección de posts tenga 3 columnas prolijas por fila */
+#main .posts {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin: -1.5rem 0 0 -1.5rem !important;
+}
+
+#main .posts > article {
+  width: calc(33.333% - 1.5rem) !important;
+  margin: 1.5rem 0 0 1.5rem !important;
+  padding: 1.5rem !important;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 3. Achicar las imágenes dentro de las tarjetas para que no ocupen toda la pantalla */
+#main .posts > article .image.fit {
+  margin: 1rem 0 1rem 0 !important;
+}
+
+#main .posts > article .image.fit img {
+  max-height: 160px !important; /* Limita la altura de la imagen para que sea miniatura prolija */
+  object-fit: cover !important;
+}
