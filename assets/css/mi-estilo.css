@@ -120,3 +120,28 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   max-height: 160px !important; /* Limita la altura de la imagen para que sea miniatura prolija */
   object-fit: cover !important;
 }
+
+/* --- LIMPIEZA DE LÍNEAS HORRIBLES Y ESPACIOS EN ACTIVIDADES --- */
+
+/* 1. Sacar la línea divisoria horizontal que cruza la pantalla */
+#main hr {
+  display: none !important;
+}
+
+/* 2. Eliminar bordes o líneas extrañas que la plantilla pone arriba de las tarjetas */
+#main .posts {
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 1rem !important; /* Acercar los post al texto de arriba */
+}
+
+#main .posts > article {
+  border-top: none !important;
+  border-left: none !important; /* Limpia líneas verticales molestas entre columnas */
+}
+
+/* 3. Ajustar el espacio entre el texto principal y la grilla de posts */
+#main > .post {
+  margin-bottom: 0 !important;
+  padding-bottom: 1rem !important;
+}
