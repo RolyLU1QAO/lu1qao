@@ -8,3 +8,16 @@ body, #main, .post, article {
 h1, h2, h3, h4, h5, h6, p, span {
   color: #f0f0f0 !important;
 }
+
+/* Estilo para los botones: gris claro/metalizado con texto oscuro para alto contraste */
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+  background-color: #d0d3d4 !important;
+  color: #1e1f24 !important;
+  box-shadow: inset 0 0 0 1px #b2b5b6 !important;
+}
+
+/* Efecto cuando pasas el mouse por encima (más claro todavía) */
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
