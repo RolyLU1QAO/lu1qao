@@ -74,3 +74,13 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 #copyright a {
   color: #cccccc !important;
 }
+
+/* Forzar que los íconos de la barra de navegación se vean bien claros */
+#nav > ul.icons li a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+#nav > ul.icons li a:hover {
+  color: #d0d3d4 !important;
+}
