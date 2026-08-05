@@ -210,16 +210,20 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   color: #ffffff !important;
 }
 
-/* --- CORRECCIÓN RESPONSIVE PARA CELULARES --- */
+/* --- CORRECCIÓN RESPONSIVE ESTRICTA PARA CELULARES --- */
 @media screen and (max-width: 736px) {
-  /* Anulamos la grilla 2x2 en pantallas chicas para que vuelva a 1 sola columna */
   #main.home-posts-2x2 .posts {
     display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   #main.home-posts-2x2 .posts > article {
     width: 100% !important;
-    margin: 0 0 2rem 0 !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 2rem !important;
     box-sizing: border-box !important;
   }
 }
