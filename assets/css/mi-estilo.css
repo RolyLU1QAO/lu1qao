@@ -157,28 +157,55 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   padding-bottom: 1rem !important;
 }
 
-/* --- GRILLA ESTRICTA 2x2 PARA EL INICIO --- */
-#main.home-posts-2x2 article:first-of-type {
-  margin-bottom: 2rem !important; /* Separa prolijamente la tarjeta principal de bienvenida */
+/* --- CORRECCIÓN TOTAL GRILLA 2x2 INICIO --- */
+
+/* 1. Eliminar el hueco entre el texto principal y la grilla */
+#main.home-posts-2x2 > .post {
+  margin-bottom: 0 !important;  /* Elimina el margen inferior del bloque de texto */
+  padding-bottom: 0 !important;  /* Elimina el relleno inferior */
 }
 
+#main.home-posts-2x2 article:first-of-type {
+  margin-bottom: 1rem !important; /* Mantiene una separación mínima de 1rem entre la tarjeta ppal y las de abajo */
+  border-bottom: none !important; /* Asegura que no haya borde debajo de la tarjeta principal si lo hubiera */
+}
+
+
+/* 2. Estructura de grilla estricta 2x2 */
 #main.home-posts-2x2 .posts {
   display: flex !important;
   flex-wrap: wrap !important;
-  justify-content: space-between !important;
+  justify-content: space-between !important; /* Distribuye el espacio equitativamente entre columnas */
   margin: 0 !important;
+  padding-top: 0 !important;
 }
 
 #main.home-posts-2x2 .posts > article {
-  width: 48% !important; /* Exactamente dos columnas con espacio al medio */
-  margin: 0 0 2rem 0 !important;
+  width: 49% !important; /* Define el ancho exacto para dos columnas (usando 49% para dejar 1% de hueco central) */
+  margin: 0 0 1.5rem 0 !important; /* Mantiene un margen inferior de 1.5rem para separar filas */
   padding: 1.5rem !important;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-sizing: border-box !important;
 }
 
+
+/* 3. Restaurar tamaño de las imágenes a 508x310 (o su proporción equivalente) */
+#main.home-posts-2x2 .posts > article .image.fit {
+  margin: 1.5rem 0 1.5rem 0 !important; /* Ajusta los márgenes superior e inferior de la imagen dentro de la tarjeta */
+  height: auto !important; /* Permite que la altura se ajuste automáticamente según el ancho */
+  max-height: none !important; /* Elimina cualquier límite de altura previo */
+}
+
 #main.home-posts-2x2 .posts > article .image.fit img {
-  max-height: 180px !important;
-  object-fit: cover !important;
+  height: auto !important; /* La altura de la imagen se ajusta automáticamente */
+  max-height: none !important; /* Elimina el límite de altura que las hacía ver chatas */
+  width: 100% !important; /* La imagen ocupa todo el ancho de la tarjeta */
+  object-fit: contain !important; /* Muestra la imagen completa sin recortarla, manteniendo su proporción */
+}
+
+/* Pequeño ajuste de contraste para los textos de las 4 tarjetas si hiciera falta */
+#main.home-posts-2x2 .posts > article h2,
+#main.home-posts-2x2 .posts > article p {
+  color: #ffffff !important; /* Fuerza el color blanco para mayor legibilidad */
 }
