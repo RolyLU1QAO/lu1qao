@@ -1,3 +1,9 @@
+/* --- FIJAR EL FONDO Y EVITAR REBOTES EN MÓVILES --- */
+body {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
 
 /* Estilos personalizados para unificar el fondo oscuro en todo el sitio */
 body, #main, .post, article {
