@@ -157,19 +157,25 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   padding-bottom: 1rem !important;
 }
 
-/* --- GRILLA EXCLUSIVA 2x2 PARA LAS 4 RAMAS EN EL INICIO --- */
+/* --- GRILLA ESTRICTA 2x2 PARA EL INICIO --- */
+#main.home-posts-2x2 article:first-of-type {
+  margin-bottom: 2rem !important; /* Separa prolijamente la tarjeta principal de bienvenida */
+}
+
 #main.home-posts-2x2 .posts {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin: -1.5rem 0 0 -1.5rem !important;
+  justify-content: space-between !important;
+  margin: 0 !important;
 }
 
 #main.home-posts-2x2 .posts > article {
-  width: calc(50% - 1.5rem) !important; /* Exactamente 2 columnas */
-  margin: 1.5rem 0 0 1.5rem !important;
+  width: 48% !important; /* Exactamente dos columnas con espacio al medio */
+  margin: 0 0 2rem 0 !important;
   padding: 1.5rem !important;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box !important;
 }
 
 #main.home-posts-2x2 .posts > article .image.fit img {
