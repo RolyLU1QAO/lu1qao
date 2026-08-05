@@ -209,3 +209,17 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 #main.home-posts-2x2 .posts > article p {
   color: #ffffff !important;
 }
+
+/* --- CORRECCIÓN RESPONSIVE PARA CELULARES --- */
+@media screen and (max-width: 736px) {
+  /* Anulamos la grilla 2x2 en pantallas chicas para que vuelva a 1 sola columna */
+  #main.home-posts-2x2 .posts {
+    display: block !important;
+  }
+
+  #main.home-posts-2x2 .posts > article {
+    width: 100% !important;
+    margin: 0 0 2rem 0 !important;
+    box-sizing: border-box !important;
+  }
+}
