@@ -157,55 +157,55 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   padding-bottom: 1rem !important;
 }
 
-/* --- CORRECCIÓN TOTAL GRILLA 2x2 INICIO --- */
+/* --- AJUSTE FINO Y DEFINITIVO PARA LA GRILLA 2x2 DE INICIO --- */
 
-/* 1. Eliminar el hueco entre el texto principal y la grilla */
+/* 1. Aplastar por completo el espacio superior/inferior del post principal */
 #main.home-posts-2x2 > .post {
-  margin-bottom: 0 !important;  /* Elimina el margen inferior del bloque de texto */
-  padding-bottom: 0 !important;  /* Elimina el relleno inferior */
+  padding-top: 1rem !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.5rem !important;
 }
 
 #main.home-posts-2x2 article:first-of-type {
-  margin-bottom: 1rem !important; /* Mantiene una separación mínima de 1rem entre la tarjeta ppal y las de abajo */
-  border-bottom: none !important; /* Asegura que no haya borde debajo de la tarjeta principal si lo hubiera */
+  border-bottom: none !important;
+  margin-bottom: 0.5rem !important;
 }
 
-
-/* 2. Estructura de grilla estricta 2x2 */
+/* 2. Estructura de la grilla con bordes divisorios prolijos estilo plantilla */
 #main.home-posts-2x2 .posts {
   display: flex !important;
   flex-wrap: wrap !important;
-  justify-content: space-between !important; /* Distribuye el espacio equitativamente entre columnas */
+  justify-content: space-between !important;
   margin: 0 !important;
-  padding-top: 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important; /* Línea horizontal superior de la grilla */
+  padding-top: 2rem !important;
 }
 
 #main.home-posts-2x2 .posts > article {
-  width: 49% !important; /* Define el ancho exacto para dos columnas (usando 49% para dejar 1% de hueco central) */
-  margin: 0 0 1.5rem 0 !important; /* Mantiene un margen inferior de 1.5rem para separar filas */
+  width: 48% !important;
+  margin: 0 0 2.5rem 0 !important;
   padding: 1.5rem !important;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.01) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important; /* Borde completo en cada tarjeta para simular las líneas divisorias de intersección limpia */
   box-sizing: border-box !important;
 }
 
-
-/* 3. Restaurar tamaño de las imágenes a 508x310 (o su proporción equivalente) */
+/* 3. Restaurar tamaño de las imágenes */
 #main.home-posts-2x2 .posts > article .image.fit {
-  margin: 1.5rem 0 1.5rem 0 !important; /* Ajusta los márgenes superior e inferior de la imagen dentro de la tarjeta */
-  height: auto !important; /* Permite que la altura se ajuste automáticamente según el ancho */
-  max-height: none !important; /* Elimina cualquier límite de altura previo */
+  margin: 1.5rem 0 1.5rem 0 !important;
+  height: auto !important;
+  max-height: none !important;
 }
 
 #main.home-posts-2x2 .posts > article .image.fit img {
-  height: auto !important; /* La altura de la imagen se ajusta automáticamente */
-  max-height: none !important; /* Elimina el límite de altura que las hacía ver chatas */
-  width: 100% !important; /* La imagen ocupa todo el ancho de la tarjeta */
-  object-fit: contain !important; /* Muestra la imagen completa sin recortarla, manteniendo su proporción */
+  height: auto !important;
+  max-height: none !important;
+  width: 100% !important;
+  object-fit: contain !important;
 }
 
-/* Pequeño ajuste de contraste para los textos de las 4 tarjetas si hiciera falta */
+/* 4. Asegurar visibilidad de títulos y textos */
 #main.home-posts-2x2 .posts > article h2,
 #main.home-posts-2x2 .posts > article p {
-  color: #ffffff !important; /* Fuerza el color blanco para mayor legibilidad */
+  color: #ffffff !important;
 }
