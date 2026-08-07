@@ -233,3 +233,18 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     box-sizing: border-box !important;
   }
 }
+
+/* --- CORRECCIÓN DEFINITIVA PARA LA IMAGEN DE FONDO DE LA PLANTILLA --- */
+#wrapper > .bg {
+  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/BG_Webp.webp") !important;
+  background-size: cover, cover, cover !important;
+  background-position: center, center, center center !important;
+  background-repeat: no-repeat, no-repeat, no-repeat !important;
+  background-attachment: fixed, fixed, fixed !important;
+}
+
+#wrapper > .bg.fixed {
+  position: fixed !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
