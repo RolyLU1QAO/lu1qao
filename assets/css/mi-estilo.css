@@ -251,18 +251,21 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 
 /* --- CORRECCIÓN RESPONSIVE EXCLUSIVA PARA LA PÁGINA DE ACTIVIDADES --- */
 @media screen and (max-width: 736px) {
-  /* Si tu página de actividades tiene una clase específica en el body, usala acá. 
-     Por ejemplo, si el body o el contenedor principal tiene una clase como .is-activities o un ID particular */
   body.is-activities #main .posts,
   #main.activities-posts .posts {
     display: block !important;
+    text-align: center !important;
   }
 
   body.is-activities #main .posts > article,
   #main.activities-posts .posts > article {
     width: 100% !important;
-    margin: 1.5rem 0 0 0 !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 2rem !important;
     padding: 1.5rem !important;
     box-sizing: border-box !important;
+    float: none !important;
   }
 }
