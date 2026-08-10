@@ -249,23 +249,34 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   height: 100vh !important;
 }
 
-/* --- CORRECCIÓN RESPONSIVE EXCLUSIVA PARA LA PÁGINA DE ACTIVIDADES --- */
+/* --- CORRECCIÓN RESPONSIVE DEFINITIVA PARA LA PÁGINA DE ACTIVIDADES --- */
 @media screen and (max-width: 736px) {
+  /* Forzamos a que el contenedor principal de los posts no tenga márgenes ni rellenos laterales */
   body.is-activities #main .posts,
   #main.activities-posts .posts {
     display: block !important;
+    margin: 0 !important; /* Quitamos cualquier margen exterior */
+    padding: 0 !important; /* Quitamos cualquier relleno interior */
+    width: 100% !important; /* Aseguramos el ancho total */
     text-align: center !important;
   }
 
+  /* Aseguramos que cada artículo tampoco tenga márgenes laterales extraños */
   body.is-activities #main .posts > article,
   #main.activities-posts .posts > article {
     width: 100% !important;
-    max-width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 2rem !important;
+    margin-top: 2rem !important; /* Espacio entre post y post */
+    margin-left: 0 !important;  /* Anulamos margen izquierdo */
+    margin-right: 0 !important; /* Anulamos margen derecho */
+    margin-bottom: 0 !important;
     padding: 1.5rem !important;
     box-sizing: border-box !important;
     float: none !important;
+  }
+  
+  /* Opcional: Ajustar el padding del contenedor padre si sigue habiendo espacio */
+  body.is-activities #main > .post {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
   }
 }
