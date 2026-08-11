@@ -7,8 +7,60 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mi-estilo.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- FullCalendar CSS para el diseño interactivo -->
+		<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
+		
+		<style>
+			/* Estilos personalizados para adaptar el calendario a la plantilla oscura */
+			#calendar {
+				background: #ffffff;
+				padding: 20px;
+				border-radius: 8px;
+				color: #333;
+				margin-bottom: 3rem;
+			}
+			.fc-event {
+				cursor: pointer;
+				padding: 3px 6px;
+				font-size: 0.9rem;
+				border: none !important;
+			}
+			/* Color Verde para Actividad */
+			.fc-event-actividad {
+				background-color: #28a745 !important;
+				color: #fff !important;
+			}
+			/* Color Naranja para Prueba */
+			.fc-event-prueba {
+				background-color: #fd7e14 !important;
+				color: #fff !important;
+			}
+			.fc-toolbar-title {
+				font-size: 1.2rem !important;
+				font-weight: bold;
+			}
+			/* Botón para cargar actividad */
+			.btn-cargar-container {
+				text-align: center;
+				margin-bottom: 2rem;
+			}
+			.btn-cargar {
+				background-color: #28a745;
+				color: #fff !important;
+				padding: 0.75rem 1.5rem;
+				border-radius: 4px;
+				text-decoration: none;
+				font-weight: bold;
+				display: inline-block;
+				transition: background 0.3s ease;
+			}
+			.btn-cargar:hover {
+				background-color: #218838;
+			}
+		</style>
 	</head>
-	<body class="is-preload">
+	<body class="is-activities">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -36,100 +88,28 @@
 						<!-- Título de la Sección -->
 							<section class="post">
 								<header class="major">
-									<span class="date">Bitácora y Novedades</span>
-									<h1>Actividades y <br />
-									Eventos</h1>
+									<span class="date">Tablón Colaborativo</span>
+									<h1>Agenda de Actividades <br />
+									y Pruebas GRADSL</h1>
 								</header>
-								<p>Este es nuestro espacio de bitácora donde iremos compartiendo los detalles de las últimas activaciones, eventos especiales y novedades del ámbito de radioaficionados.</p>
+								<p>Consultá el calendario de actividades y pruebas programadas por los colegas. Para sumar una nueva fecha al tablón, utilizá el botón de carga rápida.</p>
 							</section>
 							
 						<hr /> <!-- Línea divisoria -->
 
-						<!-- Grilla de Actividades (Aquí empieza la magia de las 3 columnas) -->
-						<section class="posts">
-							
-							<!-- Artículo 1 (Ejemplo) -->
-							<article>
-								<header>
-									<span class="date">Agosto, 2026</span>
-									<h2>Proyecto KV4P HT transforma un Android en Radio</h2>
-								</header>
-								<a href="https://www.noticiasdelradioaficionado.com/proyecto-que-transforma-un-android-en-un-equipo-de-radio" target="_blank" class="image fit"><img src="images/pic01.webp" alt="Proyecto KV4P" /></a>
-								<p>Los radioaficionados ya pueden ampliar las funciones de sus teléfonos para incluir la comunicación fuera de la red.</p>
-								<ul class="actions special">
-									<li><a href="https://www.noticiasdelradioaficionado.com/proyecto-que-transforma-un-android-en-un-equipo-de-radio" target="_blank" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
+						<!-- Botón para Cargar Actividad (Reemplazá el link # por el enlace real de tu Google Form) -->
+						<div class="btn-cargar-container">
+							<a href="AQUÍ_PEGAS_EL_LINK_DE_TU_GOOGLE_FORM" target="_blank" class="btn-cargar">➕ Cargar Nueva Actividad / Prueba</a>
+						</div>
 
-							<!-- Artículo 2 (Ejemplo) -->
-							<article>
-								<header>
-									<span class="date">01 Mayo, 2026</span>
-									<h2><a href="#">Pruebas de Enlaces Digitales en VHF</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="Pruebas VHF" /></a>
-								<p>Detalles de las pruebas realizadas con hotspots y sistemas digitales para mejorar la cobertura en la zona.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
-
-							<!-- Artículo 3 (Ejemplo) -->
-							<article>
-								<header>
-									<span class="date">20 Abril, 2026</span>
-									<h2><a href="#">Encuentro Grupo Radioaficionados San Luis</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="Reunión GRADSL" /></a>
-								<p>Resumen de la reunión mensual y planificación de próximas actividades y participación en concursos.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
-							
-							<!-- Artículo 4 (Ejemplo para probar la segunda fila) -->
-							<article>
-								<header>
-									<span class="date">10 Abril, 2026</span>
-									<h2><a href="#">Activación Vértice Geodésico SL</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="Activación Vértice" /></a>
-								<p>Operación desde un punto de referencia geodésico en la provincia. Participación en diplomas.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
-							
-							<!-- Artículo 5 (Ejemplo) -->
-							<article>
-								<header>
-									<span class="date">01 Abril, 2026</span>
-									<h2><a href="#">Charla Técnica: Antenas Dipolo</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="Charla Antenas" /></a>
-								<p>Resumen de la charla técnica abierta a la comunidad sobre construcción y ajuste de antenas dipolo.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
-							
-							<!-- Artículo 6 (Ejemplo) -->
-							<article>
-								<header>
-									<span class="date">15 Marzo, 2026</span>
-									<h2><a href="#">Operación Día del Radioaficionado</a></h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="Día Radioaficionado" /></a>
-								<p>Jornada de puertas abiertas y operación especial en conmemoración del día del radioaficionado argentino.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button small">Ver detalles</a></li>
-								</ul>
-							</article>
-
+						<!-- Contenedor del Calendario Interactivo -->
+						<section class="posts" style="display: block !important;">
+							<div id="calendar"></div>
 						</section>
 
 					</div>
-				<!-- Footer (Mantenemos el mismo footer oscuro que armamos) -->
+
+				<!-- Footer -->
 					<footer id="footer">
 						<section>
 							<form>
@@ -173,5 +153,87 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- FullCalendar JS y Librería para leer CSV de Google Sheets -->
+			<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+			<script src="https://cdnjs.cloudflare.com/ajax5/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					var calendarEl = document.getElementById('calendar');
+					var calendar = new FullCalendar.Calendar(calendarEl, {
+						initialView: 'dayGridMonth',
+						locale: 'es',
+						headerToolbar: {
+							left: 'prev,next today',
+							center: 'title',
+							right: 'dayGridMonth,timeGridWeek'
+						},
+						events: function(fetchInfo, successCallback, failureCallback) {
+							// Enlace público CSV de tu Google Sheet
+							var sheetID = '1f85N-nraO6rp-aG67PhMcLXzpwg2CcJ7plgZUGSn1Ys';
+							var csvUrl = 'https://docs.google.com/spreadsheets/d/' + sheetID + '/export?format=csv';
+
+							fetch(csvUrl)
+								.then(response => response.text())
+								.then(csvText => {
+									Papa.parse(csvText, {
+										header: true,
+										skipEmptyLines: true,
+										complete: function(results) {
+											var events = [];
+											results.data.forEach(row => {
+												// Mapeo exacto de las columnas de tu Google Form / Sheets
+												var contacto = row['Indicativo a contactar'] || 'Sin datos';
+												var actividad = row['Nombre de la Actividad'] || 'Actividad sin nombre';
+												var tipo = row['Tipo de Actividad'] || 'Actividad';
+												var inicio = row['Fecha de Inicio'];
+												var cierre = row['Fecha de Cierre'];
+												var clave = row['Palabra Clave'] || '-';
+												var obs = row['Descripción u Observaciones / Link'] || '';
+												var autor = row['Indicativo del Autor'] || '-';
+
+												// Definir color según tipo (Verde para Actividad, Naranja para Prueba)
+												var className = (tipo.toLowerCase().includes('prueba')) ? 'fc-event-prueba' : 'fc-event-actividad';
+
+												if (inicio) {
+													events.push({
+														title: '[' + tipo.toUpperCase() + '] ' + actividad + ' (' + contacto + ')',
+														start: inicio,
+														end: cierre ? cierre : null,
+														className: className,
+														extendedProps: {
+															contacto: contacto,
+															actividad: actividad,
+															tipo: tipo,
+															clave: clave,
+															obs: obs,
+															autor: autor
+														}
+													});
+												}
+											});
+											successCallback(events);
+										}
+								});
+							})
+							.catch(error => {
+								console.error('Error al cargar las actividades:', error);
+								failureCallback(error);
+							});
+						},
+						eventClick: function(info) {
+							var p = info.event.extendedProps;
+							var detalleHtml = 
+								"📌 Actividad: " + p.actividad + "\n" +
+								"🏷️ Tipo: " + p.tipo + "\n" +
+								"📻 Contactar a: " + p.contacto + "\n" +
+								"🔑 Palabra Clave: " + p.clave + "\n" +
+								"✍️ Publicado por: " + p.autor + "\n" +
+								(p.obs ? "🔗 Info/Link: " + p.obs : "");
+							alert(detalleHtml);
+						}
+					});
+					calendar.render();
+				});
+			</script>
 	</body>
 </html>
