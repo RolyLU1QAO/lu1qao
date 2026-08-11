@@ -16,7 +16,7 @@
 			#calendar-container {
 				width: 100%;
 				max-width: 900px;
-				margin: 0 auto 3rem auto;
+				margin: 0 auto 1.5rem auto; /* Sin margen inferior excesivo para evitar huecos */
 				box-sizing: border-box;
 			}
 			#calendar {
@@ -75,7 +75,7 @@
 				font-size: 1.3rem !important;
 				font-weight: bold;
 			}
-			/* Botón para cargar actividad (Sin el signo +) */
+			/* Botón para cargar actividad */
 			.btn-cargar-container {
 				text-align: center;
 				margin-bottom: 2.5rem;
@@ -114,14 +114,14 @@
 							<li><a href="aprs-qsl.html">APRS y QSL</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="mailto:rolybettini@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="mailto:lu1qao@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main" class="activities-posts">
 
-						<!-- Título de la Sección (Modificado a "Agenda de Actividades") -->
+						<!-- Título de la Sección -->
 							<section class="post">
 								<header class="major">
 									<span class="date">Tablón Colaborativo</span>
@@ -129,13 +129,15 @@
 								</header>
 								<p>Consultá el calendario de actividades y pruebas programadas por los colegas. Para sumar una nueva fecha al tablón, utilizá el botón de carga rápida.</p>
 							</section>
+							
+						<hr />
 
-						<!-- Botón para Cargar Actividad (Sin el signo +) -->
+						<!-- Botón para Cargar Actividad -->
 						<div class="btn-cargar-container">
-							<a href="https://forms.gle/tNPR72RbQyZfBPGV6" target="_blank" class="btn-cargar">Cargar Nueva Actividad / Prueba</a>
+							<a href="https://forms.gle/AseVwi3UwFRpMUkM8" target="_blank" class="btn-cargar">Cargar Nueva Actividad / Prueba</a>
 						</div>
 
-						<!-- Contenedor Centrado del Calendario en Modo Oscuro -->
+						<!-- Contenedor Centrado del Calendario en Modo Oscuro (Sin espacio inferior extra) -->
 						<div id="calendar-container">
 							<div id="calendar"></div>
 						</div>
@@ -149,7 +151,7 @@
 								<h3>Contacto Directo</h3>
 								<p>¿Tenés alguna consulta o querés coordinar un QSO? Escribime directamente:</p>
 								<ul class="actions">
-									<li><a href="mailto:rolybettini@gmail.com" class="button">Enviar Correo a Roly</a></li>
+									<li><a href="mailto:lu1qao@gmail.com" class="button">Enviar Correo a LU1QAO</a></li>
 								</ul>
 							</form>
 						</section>
@@ -161,11 +163,11 @@
 							</section>
 							<section>
 								<h3>Indicativo</h3>
-								<p>LU1QAO</p>
+								<p><a href="#">LU1QAO</a></p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="mailto:rolybettini@gmail.com">rolybettini@gmail.com</a></p>
+								<p><a href="mailto:lu1qao@gmail.com">lu1qao@gmail.com</a></p>
 							</section>
 						</section>
 					</footer>
@@ -235,9 +237,8 @@
 												var inicio = convertirFecha(row[4]);
 												var cierre = convertirFecha(row[5]);
 												var clave = row[6] || '-';
-												// Corregido: row[7] es Descripción/Link y row[8] es el Autor
-												var obs = row[8] || '';
-												var autor = row[7] || '-';
+												var obs = row[7] || '';
+												var autor = row[8] || '-';
 
 												var className = (tipo.toLowerCase().includes('prueba')) ? 'fc-event-prueba' : 'fc-event-actividad';
 
