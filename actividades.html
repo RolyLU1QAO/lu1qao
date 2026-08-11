@@ -210,34 +210,21 @@
 								.then(response => response.text())
 								.then(csvText => {
 									Papa.parse(csvText, {
-										header: false, // Leemos por posición de columna para evitar errores de nombres
+										header: false,
 										skipEmptyLines: true,
 										complete: function(results) {
 											var events = [];
 											var filas = results.data;
 											
-											// Empezamos desde i = 1 para saltarnos la fila de títulos (encabezados)
 											for (var i = 1; i < filas.length; i++) {
 												var row = filas[i];
 												
-												// Posiciones exactas según tu orden de columnas en Google Sheets:
-												// row[1] = Indicativo
-												// row[2] = Nombre de la Actividad
-												// row[3] = Tipo de Actividad
-												// row[4] = Fecha de Inicio
-												// row[5] = Fecha de Cierre
-												// row[6] = Palabra Clave
-												// row[7] = Descripción / Link
-												// row[8] = Indicativo del Autor
-
 												var contacto = row[1] || 'Sin datos';
 												var actividad = row[2] || 'Actividad sin nombre';
 												var tipo = row[3] || 'Actividad';
 												
-												// Función para limpiar fecha y hora (ej: "25/8/2026 0:00:00" -> "2026-08-25")
 												function convertirFecha(celdaTexto) {
 													if (!celdaTexto) return null;
-													// Nos quedamos solo con la parte de la fecha antes del espacio de la hora
 													var soloFecha = celdaTexto.trim().split(' ')[0]; 
 													var partes = soloFecha.split('/');
 													if (partes.length !== 3) return null;
@@ -250,6 +237,7 @@
 												var inicio = convertirFecha(row[4]);
 												var cierre = convertirFecha(row[5]);
 												var clave = row[6] || '-';
+												// Corregido: row[7] es Descripción/Link y row[8] es el Autor
 												var obs = row[7] || '';
 												var autor = row[8] || '-';
 
