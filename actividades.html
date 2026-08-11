@@ -8,52 +8,88 @@
 		<link rel="stylesheet" href="assets/css/mi-estilo.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		
-		<!-- FullCalendar CSS para el diseño interactivo -->
+		<!-- FullCalendar CSS -->
 		<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css' rel='stylesheet' />
 		
 		<style>
-			/* Estilos personalizados para adaptar el calendario a la plantilla oscura */
+			/* --- CALENDARIO EN MODO OSCURO INTEGRADO --- */
+			#calendar-container {
+				width: 100%;
+				max-width: 900px;
+				margin: 0 auto 3rem auto;
+				box-sizing: border-box;
+			}
 			#calendar {
-				background: #ffffff;
-				padding: 20px;
+				background: #1e1e1e !important;
+				padding: 25px;
 				border-radius: 8px;
-				color: #333;
-				margin-bottom: 3rem;
+				color: #ffffff !important;
+				box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+				border: 1px solid #333;
+			}
+			/* Forzar colores oscuros en textos y grilla del calendario */
+			.fc {
+				--fc-page-bg-color: #1e1e1e;
+				--fc-neutral-bg-color: #2a2a2a;
+				--fc-neutral-border-color: #444;
+				--fc-border-color: #444;
+				--fc-today-bg-color: rgba(40, 167, 69, 0.15);
+				--fc-list-event-hover-bg-color: #333;
+				color: #ffffff !important;
+			}
+			.fc-col-header-cell-cushion, 
+			.fc-daygrid-day-number, 
+			.fc-toolbar-title {
+				color: #ffffff !important;
+			}
+			.fc-button-primary {
+				background-color: #333 !important;
+				border-color: #555 !important;
+				color: #fff !important;
+			}
+			.fc-button-primary:hover {
+				background-color: #444 !important;
+			}
+			.fc-button-active {
+				background-color: #28a745 !important;
+				border-color: #28a745 !important;
 			}
 			.fc-event {
 				cursor: pointer;
-				padding: 3px 6px;
-				font-size: 0.9rem;
+				padding: 4px 8px;
+				font-size: 0.85rem;
 				border: none !important;
+				border-radius: 4px;
 			}
-			/* Color Verde para Actividad */
+			/* Verde para Actividad */
 			.fc-event-actividad {
 				background-color: #28a745 !important;
 				color: #fff !important;
 			}
-			/* Color Naranja para Prueba */
+			/* Naranja para Prueba */
 			.fc-event-prueba {
 				background-color: #fd7e14 !important;
 				color: #fff !important;
 			}
 			.fc-toolbar-title {
-				font-size: 1.2rem !important;
+				font-size: 1.3rem !important;
 				font-weight: bold;
 			}
-			/* Botón para cargar actividad */
+			/* Botón para cargar actividad (Sin el signo +) */
 			.btn-cargar-container {
 				text-align: center;
-				margin-bottom: 2rem;
+				margin-bottom: 2.5rem;
 			}
 			.btn-cargar {
 				background-color: #28a745;
 				color: #fff !important;
-				padding: 0.75rem 1.5rem;
+				padding: 0.75rem 1.8rem;
 				border-radius: 4px;
 				text-decoration: none;
 				font-weight: bold;
 				display: inline-block;
 				transition: background 0.3s ease;
+				box-shadow: 0 3px 8px rgba(0,0,0,0.3);
 			}
 			.btn-cargar:hover {
 				background-color: #218838;
@@ -85,7 +121,7 @@
 				<!-- Main -->
 					<div id="main" class="activities-posts">
 
-						<!-- Título de la Sección -->
+						<!-- Título de la Sección (Modificado a "Agenda de Actividades") -->
 							<section class="post">
 								<header class="major">
 									<span class="date">Tablón Colaborativo</span>
@@ -94,17 +130,17 @@
 								<p>Consultá el calendario de actividades y pruebas programadas por los colegas. Para sumar una nueva fecha al tablón, utilizá el botón de carga rápida.</p>
 							</section>
 							
-						<hr /> <!-- Línea divisoria -->
+						<hr />
 
-						<!-- Botón para Cargar Actividad (Reemplazá el link # por el enlace real de tu Google Form) -->
+						<!-- Botón para Cargar Actividad (Sin el signo +) -->
 						<div class="btn-cargar-container">
-							<a href="AQUÍ_PEGAS_EL_LINK_DE_TU_GOOGLE_FORM" target="_blank" class="btn-cargar">➕ Cargar Nueva Actividad / Prueba</a>
+							<a href="AQUÍ_PEGAS_EL_LINK_DE_TU_GOOGLE_FORM" target="_blank" class="btn-cargar">Cargar Nueva Actividad / Prueba</a>
 						</div>
 
-						<!-- Contenedor del Calendario Interactivo -->
-						<section class="posts" style="display: block !important;">
+						<!-- Contenedor Centrado del Calendario en Modo Oscuro -->
+						<div id="calendar-container">
 							<div id="calendar"></div>
-						</section>
+						</div>
 
 					</div>
 
@@ -152,9 +188,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-			<!-- FullCalendar JS y Librería para leer CSV de Google Sheets -->
+			<!-- FullCalendar JS y Papaparse -->
 			<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
-			<script src="https://cdnjs.cloudflare.com/ajax5/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 			<script>
 				document.addEventListener('DOMContentLoaded', function() {
 					var calendarEl = document.getElementById('calendar');
@@ -167,7 +203,6 @@
 							right: 'dayGridMonth,timeGridWeek'
 						},
 						events: function(fetchInfo, successCallback, failureCallback) {
-							// Enlace público CSV de tu Google Sheet
 							var sheetID = '1f85N-nraO6rp-aG67PhMcLXzpwg2CcJ7plgZUGSn1Ys';
 							var csvUrl = 'https://docs.google.com/spreadsheets/d/' + sheetID + '/export?format=csv';
 
@@ -180,7 +215,6 @@
 										complete: function(results) {
 											var events = [];
 											results.data.forEach(row => {
-												// Mapeo exacto de las columnas de tu Google Form / Sheets
 												var contacto = row['Indicativo a contactar'] || 'Sin datos';
 												var actividad = row['Nombre de la Actividad'] || 'Actividad sin nombre';
 												var tipo = row['Tipo de Actividad'] || 'Actividad';
@@ -190,7 +224,6 @@
 												var obs = row['Descripción u Observaciones / Link'] || '';
 												var autor = row['Indicativo del Autor'] || '-';
 
-												// Definir color según tipo (Verde para Actividad, Naranja para Prueba)
 												var className = (tipo.toLowerCase().includes('prueba')) ? 'fc-event-prueba' : 'fc-event-actividad';
 
 												if (inicio) {
