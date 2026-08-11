@@ -7,6 +7,18 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mi-estilo.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Estilo destacado para la palabra clave / comando APRS */
+			.aprs-keyword {
+				background-color: rgba(40, 167, 69, 0.2);
+				color: #28a745 !important;
+				border: 1px solid #28a745;
+				padding: 0.2rem 0.5rem;
+				border-radius: 4px;
+				font-weight: bold;
+				font-size: 0.95em;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -57,11 +69,11 @@
 									<div class="col-8 col-12-small">
 										<h3>📡 Detalles de la Activación APRS</h3>
 										<ul class="alt" style="list-style: none; padding-left: 0;">
-											<li><strong>Estación / Operador:</strong> LU1QAO-3</li>
-											<li><strong>Comando / Palabra Clave:</strong> <code>CQ EVENTO</code></li>
-											<li><strong>Fecha de Inicio:</strong> 07/08/2026 00:00 UTC</li>
-											<li><strong>Fecha de Cierre:</strong> 07/08/2026 23:59 UTC</li>
-											<li><strong>Método de Confirmación:</strong> 144.390 MHz 2M PKT  / qrz.COM</li>
+											<li>Estación / Operador: <strong>LU1QAO-3</strong></li>
+											<li>Comando / Palabra Clave: <code class="aprs-keyword">CQ EVENTO</code></li>
+											<li>Fecha de Inicio: <strong>07/08/2026 00:00 UTC</strong></li>
+											<li>Fecha de Cierre: <strong>07/08/2026 23:59 UTC</strong></li>
+											<li>Método de Confirmación: <strong>144.390 MHz 2M PKT / qrz.COM</strong></li>
 										</ul>
 									</div>
 								</div>
