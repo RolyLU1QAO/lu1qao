@@ -215,22 +215,23 @@
 										complete: function(results) {
 											var events = [];
 											results.data.forEach(row => {
-												var contacto = row['Indicativo a contactar'] || 'Sin datos';
-												var actividad = row['Nombre de la Actividad'] || 'Actividad sin nombre';
-												var tipo = row['Tipo de Actividad'] || 'Actividad';
-												// Función para convertir DD/MM/AAAA a AAAA-MM-DD
-function convertirFecha(fechaStr) {
-    if (!fechaStr) return null;
-    var partes = fechaStr.split('/');
-    if (partes.length !== 3) return fechaStr; // Si ya viene en otro formato, lo devuelve igual
-    return partes[2] + '-' + partes[1] + '-' + partes[0];
-}
+												// Ajustado con los dos puntos (:) según tus títulos actuales en el Sheet
+												var contacto = row['Indicativo a contactar:'] || row['Indicativo a contactar'] || 'Sin datos';
+												var actividad = row['Nombre de la Actividad:'] || row['Nombre de la Actividad'] || 'Actividad sin nombre';
+												var tipo = row['Tipo de Actividad:'] || row['Tipo de Actividad'] || 'Actividad';
+												
+												function convertirFecha(fechaStr) {
+													if (!fechaStr) return null;
+													var partes = fechaStr.trim().split('/');
+													if (partes.length !== 3) return fechaStr;
+													return partes[2] + '-' + partes[1] + '-' + partes[0];
+												}
 
-var inicio = convertirFecha(row['Fecha de Inicio']);
-var cierre = convertirFecha(row['Fecha de Cierre']);
-												var clave = row['Palabra Clave'] || '-';
-												var obs = row['Descripción u Observaciones / Link'] || '';
-												var autor = row['Indicativo del Autor'] || '-';
+												var inicio = convertirFecha(row['Fecha de Inicio:'] || row['Fecha de Inicio']);
+												var cierre = convertirFecha(row['Fecha de Cierre:'] || row['Fecha de Cierre']);
+												var clave = row['Palabra Clave:'] || row['Palabra Clave'] || '-';
+												var obs = row['Descripción u Observaciones / Link:'] || row['Descripción u Observaciones / Link'] || '';
+												var autor = row['Indicativo del Autor:'] || row['Indicativo del Autor'] || '-';
 
 												var className = (tipo.toLowerCase().includes('prueba')) ? 'fc-event-prueba' : 'fc-event-actividad';
 
