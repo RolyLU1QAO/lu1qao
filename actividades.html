@@ -218,8 +218,16 @@
 												var contacto = row['Indicativo a contactar'] || 'Sin datos';
 												var actividad = row['Nombre de la Actividad'] || 'Actividad sin nombre';
 												var tipo = row['Tipo de Actividad'] || 'Actividad';
-												var inicio = row['Fecha de Inicio'];
-												var cierre = row['Fecha de Cierre'];
+												// Función para convertir DD/MM/AAAA a AAAA-MM-DD
+function convertirFecha(fechaStr) {
+    if (!fechaStr) return null;
+    var partes = fechaStr.split('/');
+    if (partes.length !== 3) return fechaStr; // Si ya viene en otro formato, lo devuelve igual
+    return partes[2] + '-' + partes[1] + '-' + partes[0];
+}
+
+var inicio = convertirFecha(row['Fecha de Inicio']);
+var cierre = convertirFecha(row['Fecha de Cierre']);
 												var clave = row['Palabra Clave'] || '-';
 												var obs = row['Descripción u Observaciones / Link'] || '';
 												var autor = row['Indicativo del Autor'] || '-';
