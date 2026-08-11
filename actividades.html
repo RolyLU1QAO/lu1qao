@@ -16,7 +16,7 @@
 			#calendar-container {
 				width: 100%;
 				max-width: 900px;
-				margin: 0 auto 1.5rem auto; /* Sin margen inferior excesivo para evitar huecos */
+				margin: 0 auto 1.5rem auto;
 				box-sizing: border-box;
 			}
 			#calendar {
@@ -127,17 +127,17 @@
 									<span class="date">Tablón Colaborativo</span>
 									<h1>Agenda de Actividades</h1>
 								</header>
-								<p>Consultá el calendario de actividades y pruebas programadas por los colegas. Para sumar una nueva fecha al tablón, utilizá el botón de carga rápida.</p>
+								<p>Consultá el calendario de actividades y pruebas programadas por los colegas.<br />Para sumar una nueva fecha al tablón, utilizá el botón de carga rápida.</p>
 							</section>
 							
 						<hr />
 
 						<!-- Botón para Cargar Actividad -->
 						<div class="btn-cargar-container">
-							<a href="https://forms.gle/AseVwi3UwFRpMUkM8" target="_blank" class="btn-cargar">Cargar Nueva Actividad / Prueba</a>
+							<a href="AQUÍ_PEGAS_EL_LINK_DE_TU_GOOGLE_FORM" target="_blank" class="btn-cargar">Cargar Nueva Actividad / Prueba</a>
 						</div>
 
-						<!-- Contenedor Centrado del Calendario en Modo Oscuro (Sin espacio inferior extra) -->
+						<!-- Contenedor Centrado del Calendario en Modo Oscuro -->
 						<div id="calendar-container">
 							<div id="calendar"></div>
 						</div>
@@ -163,7 +163,7 @@
 							</section>
 							<section>
 								<h3>Indicativo</h3>
-								<p><a href="#">LU1QAO</a></p>
+								<p>LU1QAO</p>
 							</section>
 							<section>
 								<h3>Email</h3>
@@ -237,6 +237,8 @@
 												var inicio = convertirFecha(row[4]);
 												var cierre = convertirFecha(row[5]);
 												var clave = row[6] || '-';
+												var inicioTexto = row[4] || '-';
+												var cierreTexto = row[5] || '-';
 												var obs = row[8] || '';
 												var autor = row[7] || '-';
 
@@ -253,6 +255,8 @@
 															actividad: actividad,
 															tipo: tipo,
 															clave: clave,
+															inicioTexto: inicioTexto,
+															cierreTexto: cierreTexto,
 															obs: obs,
 															autor: autor
 														}
@@ -275,6 +279,8 @@
 								"🏷️ Tipo: " + p.tipo + "\n" +
 								"📻 Contactar a: " + p.contacto + "\n" +
 								"🔑 Palabra Clave: " + p.clave + "\n" +
+								"📅 Inicio: " + p.inicioTexto + "\n" +
+								"🏁 Cierre: " + p.cierreTexto + "\n" +
 								"✍️ Publicado por: " + p.autor + "\n" +
 								(p.obs ? "🔗 Info/Link: " + p.obs : "");
 							alert(detalleHtml);
