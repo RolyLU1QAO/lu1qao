@@ -305,16 +305,27 @@
 						},
 						eventClick: function(info) {
 							var p = info.event.extendedProps;
+
+							// Función auxiliar para quitar los segundos (ej: de "23:59:00" a "23:59")
+							function limpiarHora(textoHora) {
+								if (!textoHora) return '-';
+								// Si el texto tiene formato de hora con segundos (ej. 12:00:00 UTC), los cortamos
+								return textoHora.replace(/:\d{2}(\s|$)/, '$1');
+							}
+
 							var detalleHtml = 
 								"📌 Actividad: " + p.actividad + "\n" +
 								"🏷️ Tipo: " + p.tipo + "\n" +
 								"📻 Contactar a: " + p.contacto + "\n" +
 								"🔑 Palabra Clave: " + p.clave + "\n" +
-								"📅 Inicio UTC: " + p.inicioTexto + "\n" +
-								"🏁 Cierre UTC: " + p.cierreTexto + "\n" +
+								"📅 Inicio UTC: " + limpiarHora(p.inicioTexto) + "\n" +
+								"🏁 Cierre UTC: " + limpiarHora(p.cierreTexto) + "\n" +
 								"✍️ Publicado por: " + p.autor + "\n" +
 								(p.obs ? "🔗 Info/Link: " + p.obs : "");
 							alert(detalleHtml);
+						}
+						}
+						}
 						}
 					});
 					calendar.render();
