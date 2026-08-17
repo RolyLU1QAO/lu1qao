@@ -245,20 +245,20 @@
 												var className = (tipo.toLowerCase().includes('prueba')) ? 'fc-event-prueba' : 'fc-event-actividad';
 
 												if (inicio) {
-													events.push({
-														title: '[' + contacto.toUpperCase().trim() + ']',
-														start: inicio,
-														end: cierre ? cierre : null,
-														className: className,
-														extendedProps: {
-															contacto: contacto,
-															actividad: actividad,
-															tipo: tipo,
-															clave: clave,
-															inicioTexto: inicioTexto,
-															cierreTexto: cierreTexto,
-															obs: obs,
-															autor: autor
+    events.push({
+        title: '[' + contacto.toUpperCase().trim() + ']',
+        start: inicio,
+        end: null, // Forzamos a que sea un evento de un solo día visualmente
+        className: className,
+        extendedProps: {
+            contacto: contacto,
+            actividad: actividad,
+            tipo: tipo,
+            clave: clave,
+            inicioTexto: inicioTexto,
+            cierreTexto: cierreTexto,
+            obs: obs,
+            autor: autor
 														}
 													});
 												}
