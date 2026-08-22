@@ -164,13 +164,13 @@
 
 					</div>
 				<!-- INICIO DE WIDGET APRS EN VIVO -->
-<div class="aprs-widget-container" style="max-width: 800px; margin: 40px auto; background: #1e1e1e; color: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: monospace;">
+<div class="aprs-widget-container" style="width: 100%; max-width: 100%; box-sizing: border-box; margin: 30px auto; background: #1e1e1e; color: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: monospace;">
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 12px; margin-bottom: 15px;">
-        <h3 style="margin: 0; color: #4CAF50; font-size: 1.1rem;">📡 Últimas Estaciones Argentinas en Vivo</h3>
+        <h3 style="margin: 0; color: #4CAF50; font-size: 1.1rem;">📡 ÚLTIMAS ESTACIONES ARGENTINAS EN VIVO</h3>
         <span id="aprs-status" style="font-size: 0.8rem; background: #333; color: #aaa; padding: 3px 8px; border-radius: 4px;">Conectando...</span>
     </div>
     
-    <ul id="lista-aprs" style="list-style: none; padding: 0; margin: 0; max-height: 400px; overflow-y: auto;">
+    <ul id="lista-aprs" style="list-style: none; padding: 0; margin: 0; max-height: 450px; overflow-y: auto;">
         <li style="color: #888; text-align: center; padding: 20px;">Cargando tráfico nacional de estaciones...</li>
     </ul>
 </div>
@@ -181,7 +181,7 @@ async function actualizarMonitorAPRS() {
     let contenedor = document.getElementById('lista-aprs');
     
     try {
-        // IMPORTANTE: Reemplaza "TU_IP_O_DOMINIO" por tu IP pública, dominio, o "localhost" si lo pruebas localmente
+        // Aquí apuntarás a tu enlace de Ngrok cuando lo configures, o localhost para pruebas
         let respuesta = await fetch('http://localhost:5000/api/estaciones');
         let estaciones = await respuesta.json();
         
@@ -195,40 +195,41 @@ async function actualizarMonitorAPRS() {
             return;
         }
         
-        // Actualizar estado a conectado verde
         statusBadge.innerText = "🟢 En Vivo";
         statusBadge.style.background = "#2e7d32";
         statusBadge.style.color = "#fff";
         
         estaciones.forEach(est => {
             let item = document.createElement('li');
-            item.style.padding = '10px 0';
+            item.style.padding = '8px 10px';
             item.style.borderBottom = '1px dashed #333';
+            item.style.display = 'flex';
+            item.style.flexWrap = 'wrap';
+            item.style.alignItems = 'center';
+            item.style.gap = '10px';
+            
+            // Estructura horizontal optimizada para aprovechar el ancho completo
             item.innerHTML = `
-                <div style="display: flex; justify-content: space-between; font-size: 0.9rem;">
-                    <div>
-                        <span style="color: #aaa;">[${est.hora}]</span> 
-                        <span style="background: #222; padding: 2px 5px; border-radius: 3px; color: #ffeb3b; font-size: 0.8rem;">${est.tipo}</span>
-                        <strong style="color: #00bcd4; margin-left: 5px;">${est.estacion}</strong> 
-                        <span style="color: #bbb;">(${est.provincia})</span>
-                    </div>
-                </div>
-                ${est.comentario ? `<div style="color: #888; font-size: 0.8rem; margin-top: 4px; padding-left: 10px; border-left: 2px solid #555;">💬 ${est.comentario}</div>` : ''}
+                <span style="color: #888; font-size: 0.85rem;">[${est.hora}]</span> 
+                <span style="background: #2a2a2a; border: 1px solid #444; padding: 1px 6px; border-radius: 3px; color: #b0bec5; font-size: 0.75rem;">${est.tipo}</span>
+                <strong style="color: #00bcd4; font-size: 0.95rem; min-width: 90px;">${est.estacion}</strong> 
+                <span style="color: #e0e0e0; font-size: 0.9rem;">(${est.provincia})</span>
+                ${est.comentario ? `<span style="color: #999; font-size: 0.85rem; margin-left: auto; background: #151515; padding: 2px 8px; border-radius: 4px; border-left: 2px solid #4CAF50;">💬 ${est.comentario}</span>` : ''}
             `;
             contenedor.appendChild(item);
         });
     } catch (error) {
         console.error("Error al conectar con el servidor APRS:", error);
-        statusBadge.innerText = "🔴 Desconectado (Servidor apagado)";
+        statusBadge.innerText = "🔴 Desconectado";
         statusBadge.style.background = "#c62828";
         statusBadge.style.color = "#fff";
-        contenedor.innerHTML = '<li style="color: #c62828; text-align: center; padding: 20px;">No se pudo conectar con el servidor de la estación (web_aprs.py).</li>';
+        contenedor.innerHTML = '<li style="color: #c62828; text-align: center; padding: 20px;">No se pudo conectar con el servidor de la estación.</li>';
     }
 }
 
 // Consultar cada 5 segundos
 setInterval(actualizarMonitorAPRS, 5000);
-actualizarMonitorAPRS(); // Ejecutar al cargar la página
+actualizarMonitorAPRS();
 </script>
 <!-- FIN DE WIDGET APRS -->
 
