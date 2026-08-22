@@ -182,7 +182,7 @@ async function actualizarMonitorAPRS() {
     
     try {
         // IMPORTANTE: Reemplaza "TU_IP_O_DOMINIO" por tu IP pública, dominio, o "localhost" si lo pruebas localmente
-        let respuesta = await fetch('http://TU_IP_O_DOMINIO:5000/api/estaciones');
+        let respuesta = await fetch('http://localhost:5000/api/estaciones');
         let estaciones = await respuesta.json();
         
         contenedor.innerHTML = '';
