@@ -182,7 +182,7 @@ async function actualizarMonitorAPRS() {
     
     try {
         // Aquí apuntarás a tu enlace de Ngrok cuando lo configures, o localhost para pruebas
-        let respuesta = await fetch('http://localhost:5000/api/estaciones');
+        let respuesta = await fetch('https://glorified-elbow-sandblast.ngrok-free.dev/api/estaciones');
         let estaciones = await respuesta.json();
         
         contenedor.innerHTML = '';
