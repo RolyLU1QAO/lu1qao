@@ -19,6 +19,19 @@
 				font-weight: bold;
 				font-size: 0.95em;
 			}
+			/* --- CORRECCIONES SOLICITADAS --- */
+			/* 1. Textos de viñetas en tono amarillo suave para que se distingan */
+			#desafio-qsl ul li strong {
+				color: #f0e68c !important;
+			}
+			/* 2. Encabezados de las tablas en amarillo suave */
+			#desafio-qsl table th {
+				color: #f0e68c !important;
+			}
+			/* 3. Reducir la altura (padding) de las celdas de las tablas para que no sean tan grandes */
+			#desafio-qsl table td, #desafio-qsl table th {
+				padding: 0.5rem 0.75rem !important;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -93,11 +106,11 @@
 					</div>
 				</section>
 
-				<!-- NUEVA SECCIÓN: DESAFÍO QSL GRADSL -->
+				<!-- SECCIÓN: DESAFÍO QSL GRADSL -->
 				<section class="post" id="desafio-qsl">
 					<header>
 						<span class="date">Especial Anual</span>
-						<h2>🏆 Desafío QSL GRADSL: Camino al Certificado de Oro</h2>
+						<h2><center>🏆 Desafío QSL GRADSL: Camino al Certificado de Oro</center></h2>
 					</header>
 					
 					<p>Participa en nuestras activaciones especiales, acumula las QSLs de 10 eventos distintos basados en icónicas marcas argentinas que marcaron nuestra infancia y adolescencia, y obtén el máximo galardón institucional.</p>
@@ -160,7 +173,7 @@
 						</table>
 					</div>
 				</section>
-				<!-- FIN NUEVA SECCIÓN -->
+				<!-- FIN SECCIÓN -->
 
 			</div>
 
@@ -214,8 +227,6 @@
 				const tbody = document.getElementById('cuerpo-tabla-ranking');
 				tbody.innerHTML = '';
 
-				// Convertimos el objeto JSON en un array para poder ordenarlo
-				// Estructura esperada en el JSON: { "LU1ABC": { "total_eventos": 3, "eventos": ["Evento 1", "Evento 2"] }, ... }
 				let arrayEstaciones = [];
 				for (let call in data) {
 					arrayEstaciones.push({
@@ -233,12 +244,11 @@
 				// ORDENAMIENTO: 1º Por cantidad de eventos (mayor a menor), 2º Alfabéticamente por indicativo (A a Z)
 				arrayEstaciones.sort((a, b) => {
 					if (b.total !== a.total) {
-						return b.total - a.total; // Mayor puntaje arriba
+						return b.total - a.total;
 					}
-					return a.callsign.localeCompare(b.callsign); // Desempate alfabético
+					return a.callsign.localeCompare(b.callsign);
 				});
 
-				// Dibujamos la tabla fila por fila con su posición
 				arrayEstaciones.forEach((est, index) => {
 					let pos = index + 1;
 					let listaEvs = est.eventos.join(', ');
