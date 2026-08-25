@@ -92,6 +92,76 @@
 						</div>
 					</div>
 				</section>
+
+				<!-- NUEVA SECCIÓN: DESAFÍO QSL GRADSL -->
+				<section class="post" id="desafio-qsl">
+					<header>
+						<span class="date">Especial Anual</span>
+						<h2>🏆 Desafío QSL GRADSL: Camino al Certificado de Oro</h2>
+					</header>
+					
+					<p>Participa en nuestras activaciones especiales, acumula las QSLs de 10 eventos distintos basados en icónicas marcas argentinas que marcaron nuestra infancia y adolescencia, y obtén el máximo galardón institucional.</p>
+					
+					<hr style="margin: 2rem 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);" />
+
+					<h3>📋 Bases y Condiciones</h3>
+					<ul>
+						<li><strong>¿Cómo participar?</strong> La acumulación es 100% automática al registrar tus contactos (QSO) en las activaciones oficiales de la agrupación.</li>
+						<li><strong>¿Qué se necesita?</strong> Completar los 10 eventos únicos dentro del ciclo previsto.</li>
+						<li><strong>Premio:</strong> Certificado de Oro digital personalizado entregado al completar la totalidad de los eventos.</li>
+					</ul>
+
+					<hr style="margin: 2rem 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);" />
+
+					<h3>📅 Cronograma de las 10 Fechas del Desafío</h3>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Fecha</th>
+									<th>Evento / Temática</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>01/09/2026</td><td>1º Alfajor Suchard</td></tr>
+								<tr><td>04/09/2026</td><td>2º Zapatillas Flecha</td></tr>
+								<tr><td>08/09/2026</td><td>3º Televisor Grundig</td></tr>
+								<tr><td>11/09/2026</td><td>4º Hamburguesas Pumper Nic</td></tr>
+								<tr><td>15/09/2026</td><td>5º Bicicleta Aurora</td></tr>
+								<tr><td>18/09/2026</td><td>6º Heladera Siam</td></tr>
+								<tr><td>22/09/2026</td><td>7º Camisas y pantalones Grafa</td></tr>
+								<tr><td>25/09/2026</td><td>8º Aperitivo Amargo Obrero</td></tr>
+								<tr><td>29/09/2026</td><td>9º Utilitario Rastrojero</td></tr>
+								<tr><td>02/10/2026</td><td>10º Bizcochitos Canale</td></tr>
+							</tbody>
+						</table>
+					</div>
+
+					<hr style="margin: 2rem 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);" />
+
+					<h3>🏆 Tabla de Posiciones y Evolución</h3>
+					<p>Seguí el desempeño de todos los colegas en tiempo real. El orden se calcula por cantidad de eventos acumulados (de mayor a menor) y se desempata alfabéticamente por indicativo.</p>
+					
+					<div class="table-wrapper">
+						<table id="tabla-ranking-general">
+							<thead>
+								<tr>
+									<th style="text-align: center;">Pos.</th>
+									<th>Indicativo</th>
+									<th style="text-align: center;">Eventos / 10</th>
+									<th>Eventos Completados</th>
+								</tr>
+							</thead>
+							<tbody id="cuerpo-tabla-ranking">
+								<tr>
+									<td colspan="4" style="text-align: center; color: #aaa;">Cargando posiciones o esperando primer archivo de datos...</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+				<!-- FIN NUEVA SECCIÓN -->
+
 			</div>
 
 			<footer id="footer">
@@ -132,5 +202,64 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<!-- SCRIPT PARA CARGAR Y ORDENAR LA TABLA DEL RANKING DESDE EL JSON -->
+		<script>
+		fetch('ranking.json')
+			.then(response => {
+				if (!response.ok) throw new Error("Archivo ranking.json no encontrado.");
+				return response.json();
+			})
+			.then(data => {
+				const tbody = document.getElementById('cuerpo-tabla-ranking');
+				tbody.innerHTML = '';
+
+				// Convertimos el objeto JSON en un array para poder ordenarlo
+				// Estructura esperada en el JSON: { "LU1ABC": { "total_eventos": 3, "eventos": ["Evento 1", "Evento 2"] }, ... }
+				let arrayEstaciones = [];
+				for (let call in data) {
+					arrayEstaciones.push({
+						callsign: call,
+						total: data[call].total_eventos || 0,
+						eventos: data[call].eventos || []
+					});
+				}
+
+				if (arrayEstaciones.length === 0) {
+					tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #aaa;">Aún no hay registros cargados en el ranking.</td></tr>';
+					return;
+				}
+
+				// ORDENAMIENTO: 1º Por cantidad de eventos (mayor a menor), 2º Alfabéticamente por indicativo (A a Z)
+				arrayEstaciones.sort((a, b) => {
+					if (b.total !== a.total) {
+						return b.total - a.total; // Mayor puntaje arriba
+					}
+					return a.callsign.localeCompare(b.callsign); // Desempate alfabético
+				});
+
+				// Dibujamos la tabla fila por fila con su posición
+				arrayEstaciones.forEach((est, index) => {
+					let pos = index + 1;
+					let listaEvs = est.eventos.join(', ');
+					let estiloFila = est.total >= 10 ? 'background: rgba(76, 175, 80, 0.1);' : '';
+					
+					let tr = document.createElement('tr');
+					tr.style = estiloFila;
+					tr.innerHTML = `
+						<td style="text-align: center; font-weight: bold;">${pos}º</td>
+						<td><strong style="color: #00bcd4;">${est.callsign}</strong></td>
+						<td style="text-align: center; font-weight: bold; color: #4CAF50;">${est.total} / 10</td>
+						<td style="font-size: 0.9rem; color: #ccc;">${listaEvs}</td>
+					`;
+					tbody.appendChild(tr);
+				});
+			})
+			.catch(error => {
+				console.warn("No se pudo cargar el ranking general:", error);
+				const tbody = document.getElementById('cuerpo-tabla-ranking');
+				tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #888;">El ranking estará disponible al finalizar el primer evento y generar los datos.</td></tr>';
+			});
+		</script>
 	</body>
 </html>
