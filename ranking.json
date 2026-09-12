@@ -1,160 +1,10 @@
 {
-    "YD9IRE": {
-        "total_eventos": 1,
-        "eventos": [
-            "Flecha"
-        ]
-    },
-    "LU9DUV": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "HJ6JBV": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Grundig"
-        ]
-    },
-    "LU7QAY": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "LU3OIS": {
-        "total_eventos": 1,
-        "eventos": [
-            "Flecha"
-        ]
-    },
-    "LU2DGE": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Suchard"
-        ]
-    },
-    "LU9TRL": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "CE4JWI": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Grundig"
-        ]
-    },
     "YC2UAI": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "Flecha",
             "Grundig",
-            "Suchard"
-        ]
-    },
-    "LU2EQI": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "YD2VLD": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "LW3DFA": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "LU6EGD": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "KP4LCA": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "YY6RTJ": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "LU7QGC": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Suchard"
-        ]
-    },
-    "YV5GHW": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "CA4FAX": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "CX2JO": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Suchard"
-        ]
-    },
-    "LU2DHU": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Grundig"
-        ]
-    },
-    "CX3JG": {
-        "total_eventos": 3,
-        "eventos": [
-            "Flecha",
-            "Grundig",
+            "Pumper",
             "Suchard"
         ]
     },
@@ -165,15 +15,117 @@
             "Grundig"
         ]
     },
-    "YD7VTG": {
-        "total_eventos": 3,
+    "CA4FAX": {
+        "total_eventos": 4,
         "eventos": [
             "Flecha",
             "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU6EGD": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "YD9IRE": {
+        "total_eventos": 1,
+        "eventos": [
+            "Flecha"
+        ]
+    },
+    "LU9DUV": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
             "Suchard"
         ]
     },
     "LU5VRN": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "YD7VTG": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU2EQI": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU7QAY": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU2DGE": {
+        "total_eventos": 3,
+        "eventos": [
+            "Flecha",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU9TRL": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "YD2VLD": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "CX2JO": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU3OIS": {
+        "total_eventos": 1,
+        "eventos": [
+            "Flecha"
+        ]
+    },
+    "YY6RTJ": {
         "total_eventos": 3,
         "eventos": [
             "Flecha",
@@ -181,56 +133,73 @@
             "Suchard"
         ]
     },
-    "YG1CBG": {
-        "total_eventos": 2,
+    "LU2DHU": {
+        "total_eventos": 3,
         "eventos": [
+            "Flecha",
             "Grundig",
+            "Pumper"
+        ]
+    },
+    "CX3JG": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
             "Suchard"
         ]
     },
-    "YD2BBH": {
-        "total_eventos": 1,
+    "YV5GHW": {
+        "total_eventos": 4,
         "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "KP4LCA": {
+        "total_eventos": 4,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "HJ6JBV": {
+        "total_eventos": 2,
+        "eventos": [
+            "Flecha",
             "Grundig"
         ]
     },
-    "YC1SNI": {
-        "total_eventos": 1,
+    "CE4JWI": {
+        "total_eventos": 3,
         "eventos": [
-            "Grundig"
+            "Flecha",
+            "Grundig",
+            "Pumper"
         ]
     },
-    "9W8AKN": {
-        "total_eventos": 1,
+    "LW3DFA": {
+        "total_eventos": 4,
         "eventos": [
-            "Grundig"
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard"
+        ]
+    },
+    "LU7QGC": {
+        "total_eventos": 2,
+        "eventos": [
+            "Flecha",
+            "Suchard"
         ]
     },
     "YD2SMG": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "YD6ASL": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "YG3CKM": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "YD7YTB": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "LU1HFE": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
@@ -242,10 +211,25 @@
             "Grundig"
         ]
     },
-    "YG1RBS": {
+    "YD2VUK": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
+        ]
+    },
+    "9W3EZY": {
+        "total_eventos": 2,
+        "eventos": [
+            "Grundig",
+            "Suchard"
+        ]
+    },
+    "YG1CBG": {
+        "total_eventos": 3,
+        "eventos": [
+            "Grundig",
+            "Pumper",
+            "Suchard"
         ]
     },
     "YC2UGE": {
@@ -254,7 +238,13 @@
             "Grundig"
         ]
     },
-    "YD2VUK": {
+    "YG3CKM": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
+    "YD2BBH": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
@@ -266,7 +256,21 @@
             "Grundig"
         ]
     },
-    "CE4MBN": {
+    "YD6HMM": {
+        "total_eventos": 2,
+        "eventos": [
+            "Grundig",
+            "Pumper"
+        ]
+    },
+    "LU8HRC": {
+        "total_eventos": 2,
+        "eventos": [
+            "Grundig",
+            "Pumper"
+        ]
+    },
+    "YC1SNI": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
@@ -278,16 +282,23 @@
             "Grundig"
         ]
     },
-    "YD6HHD": {
+    "YD4AAE": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
         ]
     },
-    "YD4AAE": {
+    "CE4MBN": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
+        ]
+    },
+    "YD6HHD": {
+        "total_eventos": 2,
+        "eventos": [
+            "Grundig",
+            "Pumper"
         ]
     },
     "9W3FAB": {
@@ -297,11 +308,23 @@
             "Suchard"
         ]
     },
-    "9W3EZY": {
+    "YD7YTB": {
         "total_eventos": 2,
         "eventos": [
             "Grundig",
-            "Suchard"
+            "Pumper"
+        ]
+    },
+    "YG1RBS": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
+    "9W8AKN": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
         ]
     },
     "CX4AT": {
@@ -310,22 +333,59 @@
             "Grundig"
         ]
     },
+    "YD6ASL": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
+    "LU1HFE": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
     "YD3AFS": {
-        "total_eventos": 1,
+        "total_eventos": 2,
         "eventos": [
-            "Grundig"
+            "Grundig",
+            "Pumper"
         ]
     },
-    "LU8HRC": {
+    "BB26BYQ": {
         "total_eventos": 1,
         "eventos": [
-            "Grundig"
+            "Pumper"
         ]
     },
-    "YD6HMM": {
+    "YD3BEQ": {
         "total_eventos": 1,
         "eventos": [
-            "Grundig"
+            "Pumper"
+        ]
+    },
+    "HJ1JCM": {
+        "total_eventos": 1,
+        "eventos": [
+            "Pumper"
+        ]
+    },
+    "YV4AVN": {
+        "total_eventos": 1,
+        "eventos": [
+            "Pumper"
+        ]
+    },
+    "XR4MAU": {
+        "total_eventos": 1,
+        "eventos": [
+            "Pumper"
+        ]
+    },
+    "YD3BEY": {
+        "total_eventos": 1,
+        "eventos": [
+            "Pumper"
         ]
     },
     "YB7VPM": {
