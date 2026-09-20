@@ -10,13 +10,8 @@
         "estaciones": 22
     },
     {
-        "pais": "Colombia",
-        "iso": "co",
-        "estaciones": 5
-    },
-    {
-        "pais": "Brasil",
-        "iso": "br",
+        "pais": "España",
+        "iso": "es",
         "estaciones": 5
     },
     {
@@ -26,7 +21,12 @@
     },
     {
         "pais": "Uruguay",
-        "iso": "cx",
+        "iso": "uy",
+        "estaciones": 5
+    },
+    {
+        "pais": "Colombia",
+        "iso": "co",
         "estaciones": 5
     },
     {
@@ -35,8 +35,8 @@
         "estaciones": 5
     },
     {
-        "pais": "España",
-        "iso": "es",
+        "pais": "Brasil",
+        "iso": "br",
         "estaciones": 5
     },
     {
@@ -50,8 +50,8 @@
         "estaciones": 2
     },
     {
-        "pais": "Guatemala",
-        "iso": "gt",
+        "pais": "Perú",
+        "iso": "pe",
         "estaciones": 1
     },
     {
@@ -60,8 +60,8 @@
         "estaciones": 1
     },
     {
-        "pais": "Perú",
-        "iso": "pe",
+        "pais": "Guatemala",
+        "iso": "gt",
         "estaciones": 1
     },
     {
