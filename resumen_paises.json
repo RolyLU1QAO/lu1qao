@@ -1,0 +1,77 @@
+[
+    {
+        "pais": "Indonesia",
+        "iso": "id",
+        "estaciones": 27
+    },
+    {
+        "pais": "Argentina",
+        "iso": "ar",
+        "estaciones": 22
+    },
+    {
+        "pais": "Colombia",
+        "iso": "co",
+        "estaciones": 5
+    },
+    {
+        "pais": "Brasil",
+        "iso": "br",
+        "estaciones": 5
+    },
+    {
+        "pais": "Malasia",
+        "iso": "my",
+        "estaciones": 5
+    },
+    {
+        "pais": "Uruguay",
+        "iso": "cx",
+        "estaciones": 5
+    },
+    {
+        "pais": "Chile",
+        "iso": "cl",
+        "estaciones": 5
+    },
+    {
+        "pais": "España",
+        "iso": "es",
+        "estaciones": 5
+    },
+    {
+        "pais": "Venezuela",
+        "iso": "ve",
+        "estaciones": 4
+    },
+    {
+        "pais": "Puerto Rico",
+        "iso": "pr",
+        "estaciones": 2
+    },
+    {
+        "pais": "Guatemala",
+        "iso": "gt",
+        "estaciones": 1
+    },
+    {
+        "pais": "China",
+        "iso": "cn",
+        "estaciones": 1
+    },
+    {
+        "pais": "Perú",
+        "iso": "pe",
+        "estaciones": 1
+    },
+    {
+        "pais": "Alemania",
+        "iso": "de",
+        "estaciones": 1
+    },
+    {
+        "pais": "Estados Unidos",
+        "iso": "us",
+        "estaciones": 1
+    }
+]
