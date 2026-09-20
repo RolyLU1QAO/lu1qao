@@ -50,8 +50,9 @@
 				font-size: 0.95rem;
 			}
 
-			/* --- TABLA DE POSICIONES: Espacio cómodo para acumular los 10 eventos --- */
-			#tabla-ranking-general td, #tabla-ranking-general th {
+			/* --- TABLA DE POSICIONES Y PAÍSES --- */
+			#tabla-ranking-general td, #tabla-ranking-general th,
+			#tabla-paises td, #tabla-paises th {
 				padding: 0.6rem 0.75rem !important;
 				font-weight: 300;
 			}
@@ -202,6 +203,30 @@
 							</tbody>
 						</table>
 					</div>
+
+					<hr style="margin: 2rem 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);" />
+
+					<!-- NUEVA SECCIÓN: PAÍSES PARTICIPANTES -->
+					<h3>Países Participantes</h3>
+					<p>Listado de países y entidades DXCC detectadas automáticamente a través de los reportes APRS de las estaciones participantes.</p>
+					
+					<div class="table-wrapper">
+						<table id="tabla-paises">
+							<thead>
+								<tr>
+									<th>País / Entidad</th>
+									<th style="text-align: center;">Estaciones Únicas</th>
+								</tr>
+							</thead>
+							<tbody id="cuerpo-tabla-paises">
+								<tr>
+									<td colspan="2" style="text-align: center; color: #aaa;">Cargando listado de países...</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- FIN NUEVA SECCIÓN -->
+
 				</section>
 				<!-- FIN SECCIÓN -->
 
@@ -299,6 +324,51 @@
 				console.warn("No se pudo cargar el ranking general:", error);
 				const tbody = document.getElementById('cuerpo-tabla-ranking');
 				tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #888;">El ranking estará disponible al finalizar el primer evento y generar los datos.</td></tr>';
+			});
+		</script>
+
+		<!-- SCRIPT PARA CARGAR LA TABLA DE PAÍSES DESDE RESUMEN_PAISES.JSON -->
+		<script>
+		fetch('resumen_paises.json')
+			.then(response => {
+				if (!response.ok) throw new Error("Archivo resumen_paises.json no encontrado.");
+				return response.json();
+			})
+			.then(data => {
+				const tbody = document.getElementById('cuerpo-tabla-paises');
+				tbody.innerHTML = '';
+
+				if (!data || data.length === 0) {
+					tbody.innerHTML = '<tr><td colspan="2" style="text-align: center; color: #aaa;">Aún no hay registros de países.</td></tr>';
+					return;
+				}
+
+				data.forEach(item => {
+					let flagHtml = '';
+					if (item.iso && item.iso !== 'un') {
+						// Bandera automática desde FlagCDN con dimensiones prolijas
+						flagHtml = `<img src="https://flagcdn.com/24x18/${item.iso}.png" alt="${item.pais}" style="width: 24px; height: 18px; border-radius: 2px; object-fit: cover; border: 1px solid #ccc; vertical-align: middle; margin-right: 8px;">`;
+					} else {
+						flagHtml = `<span style="margin-right: 8px;">🌐</span>`;
+					}
+
+					let tr = document.createElement('tr');
+					tr.innerHTML = `
+						<td>
+							<div style="display: flex; align-items: center;">
+								${flagHtml}
+								<span>${item.pais}</span>
+							</div>
+						</td>
+						<td style="text-align: center; font-weight: bold; color: #4CAF50;">${item.estaciones}</td>
+					`;
+					tbody.appendChild(tr);
+				});
+			})
+			.catch(error => {
+				console.warn("No se pudo cargar el resumen de países:", error);
+				const tbody = document.getElementById('cuerpo-tabla-paises');
+				tbody.innerHTML = '<tr><td colspan="2" style="text-align: center; color: #888;">El listado de países estará disponible próximamente.</td></tr>';
 			});
 		</script>
 	</body>
