@@ -1,47 +1,51 @@
 {
-    "PY2KMR": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "W4CVT": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "CX3JG": {
-        "total_eventos": 6,
+    "LU9DUV": {
+        "total_eventos": 7,
         "eventos": [
             "Aurorita",
             "Flecha",
             "Grundig",
             "Heladera",
             "Pumper",
-            "Suchard"
+            "Suchard",
+            "Teem"
         ]
     },
-    "CE4JWI": {
-        "total_eventos": 5,
+    "YD7KVL": {
+        "total_eventos": 2,
+        "eventos": [
+            "Aurorita",
+            "Teem"
+        ]
+    },
+    "CX3JG": {
+        "total_eventos": 7,
         "eventos": [
             "Aurorita",
             "Flecha",
             "Grundig",
             "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "YD7YTB": {
+        "total_eventos": 4,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
             "Pumper"
         ]
     },
-    "TG9NZR": {
-        "total_eventos": 2,
+    "CX2TG": {
+        "total_eventos": 1,
         "eventos": [
-            "Aurorita",
-            "Heladera"
+            "Aurorita"
         ]
     },
-    "LU4EOU": {
+    "EA7FP": {
         "total_eventos": 2,
         "eventos": [
             "Aurorita",
@@ -55,22 +59,152 @@
             "Pumper"
         ]
     },
+    "CX2FH": {
+        "total_eventos": 1,
+        "eventos": [
+            "Aurorita"
+        ]
+    },
+    "YD6HMM": {
+        "total_eventos": 5,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Teem"
+        ]
+    },
+    "LU2BR": {
+        "total_eventos": 4,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera"
+        ]
+    },
+    "YD4AAE": {
+        "total_eventos": 4,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "YD2VLD": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "YD3AFS": {
+        "total_eventos": 5,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Teem"
+        ]
+    },
+    "LW7EDH": {
+        "total_eventos": 2,
+        "eventos": [
+            "Aurorita",
+            "Heladera"
+        ]
+    },
+    "HJ1JCM": {
+        "total_eventos": 3,
+        "eventos": [
+            "Aurorita",
+            "Pumper",
+            "Teem"
+        ]
+    },
     "PY2NSA": {
         "total_eventos": 1,
         "eventos": [
             "Aurorita"
         ]
     },
-    "YD7KVL": {
-        "total_eventos": 1,
+    "YD3BEQ": {
+        "total_eventos": 4,
         "eventos": [
-            "Aurorita"
+            "Aurorita",
+            "Heladera",
+            "Pumper",
+            "Teem"
         ]
     },
-    "YD1ION": {
-        "total_eventos": 1,
+    "CA3PVF": {
+        "total_eventos": 2,
         "eventos": [
-            "Aurorita"
+            "Aurorita",
+            "Heladera"
+        ]
+    },
+    "YG1CBG": {
+        "total_eventos": 6,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "LU9TRL": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "CA4FAX": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "W4CVT": {
+        "total_eventos": 3,
+        "eventos": [
+            "Aurorita",
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "YC2UAI": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
         ]
     },
     "YD3HNL": {
@@ -79,70 +213,128 @@
             "Aurorita"
         ]
     },
-    "CX2FH": {
+    "LU6EGD": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "PU2BFG": {
         "total_eventos": 1,
         "eventos": [
             "Aurorita"
         ]
     },
-    "LU7QAY": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "YD3BEQ": {
+    "EA3JBB": {
         "total_eventos": 3,
         "eventos": [
             "Aurorita",
             "Heladera",
-            "Pumper"
+            "Teem"
         ]
     },
-    "KP4LCA": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "LU2EQI": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "EA7FP": {
+    "YY4BAJ": {
         "total_eventos": 2,
         "eventos": [
             "Aurorita",
             "Heladera"
         ]
     },
-    "YD3AFS": {
-        "total_eventos": 4,
+    "LU2XCV": {
+        "total_eventos": 2,
         "eventos": [
             "Aurorita",
+            "Heladera"
+        ]
+    },
+    "HJ1BNL": {
+        "total_eventos": 2,
+        "eventos": [
+            "Aurorita",
+            "Heladera"
+        ]
+    },
+    "LU7QAY": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
             "Grundig",
             "Heladera",
-            "Pumper"
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "LU4FGS": {
+        "total_eventos": 3,
+        "eventos": [
+            "Aurorita",
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "LU2EQI": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
         ]
     },
     "HJ4KAC": {
+        "total_eventos": 2,
+        "eventos": [
+            "Aurorita",
+            "Heladera"
+        ]
+    },
+    "KP4LCA": {
+        "total_eventos": 7,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "LW3DFA": {
+        "total_eventos": 6,
+        "eventos": [
+            "Aurorita",
+            "Flecha",
+            "Grundig",
+            "Pumper",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "PY1RV": {
+        "total_eventos": 1,
+        "eventos": [
+            "Aurorita"
+        ]
+    },
+    "OA4DXG": {
+        "total_eventos": 1,
+        "eventos": [
+            "Aurorita"
+        ]
+    },
+    "TG9NZR": {
         "total_eventos": 2,
         "eventos": [
             "Aurorita",
@@ -155,62 +347,32 @@
             "Aurorita"
         ]
     },
-    "YD2VLD": {
-        "total_eventos": 6,
+    "LU4EOU": {
+        "total_eventos": 3,
+        "eventos": [
+            "Aurorita",
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "LU5VRN": {
+        "total_eventos": 7,
         "eventos": [
             "Aurorita",
             "Flecha",
             "Grundig",
             "Heladera",
             "Pumper",
-            "Suchard"
-        ]
-    },
-    "CA4FAX": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "LU9DUV": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "EA3JBB": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "YC2UAI": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
+            "Suchard",
+            "Teem"
         ]
     },
     "LU3QJL": {
-        "total_eventos": 2,
+        "total_eventos": 3,
         "eventos": [
             "Aurorita",
-            "Heladera"
+            "Heladera",
+            "Teem"
         ]
     },
     "LU4RAD": {
@@ -219,173 +381,51 @@
             "Aurorita"
         ]
     },
-    "YD7YTB": {
-        "total_eventos": 4,
+    "CE4JWI": {
+        "total_eventos": 6,
         "eventos": [
             "Aurorita",
+            "Flecha",
             "Grundig",
             "Heladera",
-            "Pumper"
+            "Pumper",
+            "Teem"
         ]
     },
-    "LW7EDH": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "PU2BFG": {
+    "YD1ION": {
         "total_eventos": 1,
         "eventos": [
             "Aurorita"
-        ]
-    },
-    "HJ1JCM": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Pumper"
-        ]
-    },
-    "CA3PVF": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "YY4BAJ": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "YG1CBG": {
-        "total_eventos": 5,
-        "eventos": [
-            "Aurorita",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "LU2BR": {
-        "total_eventos": 4,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera"
-        ]
-    },
-    "YD6HMM": {
-        "total_eventos": 4,
-        "eventos": [
-            "Aurorita",
-            "Grundig",
-            "Heladera",
-            "Pumper"
-        ]
-    },
-    "LW3DFA": {
-        "total_eventos": 5,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "LU2XCV": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
         ]
     },
     "YD6ASL": {
+        "total_eventos": 4,
+        "eventos": [
+            "Aurorita",
+            "Grundig",
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "PY2KMR": {
         "total_eventos": 3,
         "eventos": [
             "Aurorita",
-            "Grundig",
-            "Heladera"
-        ]
-    },
-    "PY1RV": {
-        "total_eventos": 1,
-        "eventos": [
-            "Aurorita"
-        ]
-    },
-    "LU5VRN": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
             "Heladera",
-            "Pumper",
-            "Suchard"
+            "Teem"
         ]
     },
-    "YD4AAE": {
-        "total_eventos": 3,
-        "eventos": [
-            "Aurorita",
-            "Grundig",
-            "Heladera"
-        ]
-    },
-    "OA4DXG": {
+    "LU3OIS": {
         "total_eventos": 1,
         "eventos": [
-            "Aurorita"
+            "Flecha"
         ]
     },
-    "HJ1BNL": {
+    "HJ6JBV": {
         "total_eventos": 2,
         "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "LU4FGS": {
-        "total_eventos": 2,
-        "eventos": [
-            "Aurorita",
-            "Heladera"
-        ]
-    },
-    "LU9TRL": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
             "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "CX2TG": {
-        "total_eventos": 1,
-        "eventos": [
-            "Aurorita"
-        ]
-    },
-    "LU6EGD": {
-        "total_eventos": 6,
-        "eventos": [
-            "Aurorita",
-            "Flecha",
-            "Grundig",
-            "Heladera",
-            "Pumper",
-            "Suchard"
+            "Grundig"
         ]
     },
     "YY6RTJ": {
@@ -396,19 +436,11 @@
             "Suchard"
         ]
     },
-    "HJ6JBV": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Grundig"
-        ]
-    },
-    "YV5GHW": {
-        "total_eventos": 5,
+    "YD7VTG": {
+        "total_eventos": 4,
         "eventos": [
             "Flecha",
             "Grundig",
-            "Heladera",
             "Pumper",
             "Suchard"
         ]
@@ -422,19 +454,24 @@
             "Suchard"
         ]
     },
-    "LU7QGC": {
-        "total_eventos": 2,
-        "eventos": [
-            "Flecha",
-            "Suchard"
-        ]
-    },
     "LU2DHU": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "Flecha",
             "Grundig",
-            "Pumper"
+            "Pumper",
+            "Teem"
+        ]
+    },
+    "YV5GHW": {
+        "total_eventos": 6,
+        "eventos": [
+            "Flecha",
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Suchard",
+            "Teem"
         ]
     },
     "YD9IRE": {
@@ -443,76 +480,48 @@
             "Flecha"
         ]
     },
-    "LU3OIS": {
-        "total_eventos": 1,
+    "LU7QGC": {
+        "total_eventos": 2,
         "eventos": [
-            "Flecha"
+            "Flecha",
+            "Suchard"
         ]
     },
     "CX2JO": {
-        "total_eventos": 4,
+        "total_eventos": 5,
         "eventos": [
             "Flecha",
             "Grundig",
             "Pumper",
-            "Suchard"
+            "Suchard",
+            "Teem"
         ]
     },
-    "YD7VTG": {
-        "total_eventos": 4,
-        "eventos": [
-            "Flecha",
-            "Grundig",
-            "Pumper",
-            "Suchard"
-        ]
-    },
-    "YD2BBH": {
+    "YG3CKM": {
         "total_eventos": 2,
         "eventos": [
             "Grundig",
-            "Heladera"
-        ]
-    },
-    "LU8HRC": {
-        "total_eventos": 2,
-        "eventos": [
-            "Grundig",
-            "Pumper"
-        ]
-    },
-    "YC2UGE": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "LU1HFE": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
-    "CX4AT": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
+            "Teem"
         ]
     },
     "9W8RBR": {
-        "total_eventos": 2,
+        "total_eventos": 3,
         "eventos": [
             "Grundig",
-            "Heladera"
+            "Heladera",
+            "Teem"
         ]
     },
-    "YB0TNS": {
-        "total_eventos": 1,
+    "9W3FAB": {
+        "total_eventos": 4,
         "eventos": [
-            "Grundig"
+            "Grundig",
+            "Heladera",
+            "Suchard",
+            "Teem"
         ]
     },
-    "CE4MBN": {
+    "YD1AFF": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
@@ -524,19 +533,42 @@
             "Grundig"
         ]
     },
-    "YD1AFF": {
-        "total_eventos": 1,
-        "eventos": [
-            "Grundig"
-        ]
-    },
     "YC1SNI": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
         ]
     },
-    "YG3CKM": {
+    "LU1HFE": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
+    "LU8HRC": {
+        "total_eventos": 3,
+        "eventos": [
+            "Grundig",
+            "Pumper",
+            "Teem"
+        ]
+    },
+    "YD6HHD": {
+        "total_eventos": 4,
+        "eventos": [
+            "Grundig",
+            "Heladera",
+            "Pumper",
+            "Teem"
+        ]
+    },
+    "YB0TNS": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
+    "YD2SMG": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
@@ -549,73 +581,48 @@
             "Heladera"
         ]
     },
+    "YC2UGE": {
+        "total_eventos": 1,
+        "eventos": [
+            "Grundig"
+        ]
+    },
     "YG1RBS": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
         ]
     },
-    "9W3EZY": {
+    "YD2BBH": {
         "total_eventos": 3,
         "eventos": [
             "Grundig",
             "Heladera",
-            "Suchard"
+            "Teem"
         ]
     },
-    "YD2SMG": {
+    "9W3EZY": {
+        "total_eventos": 4,
+        "eventos": [
+            "Grundig",
+            "Heladera",
+            "Suchard",
+            "Teem"
+        ]
+    },
+    "CE4MBN": {
         "total_eventos": 1,
         "eventos": [
             "Grundig"
         ]
     },
-    "YD6HHD": {
-        "total_eventos": 3,
-        "eventos": [
-            "Grundig",
-            "Heladera",
-            "Pumper"
-        ]
-    },
-    "9W3FAB": {
-        "total_eventos": 3,
-        "eventos": [
-            "Grundig",
-            "Heladera",
-            "Suchard"
-        ]
-    },
-    "HJ3HAG": {
+    "CX4AT": {
         "total_eventos": 1,
         "eventos": [
-            "Heladera"
+            "Grundig"
         ]
     },
-    "DL5XL": {
-        "total_eventos": 1,
-        "eventos": [
-            "Heladera"
-        ]
-    },
-    "EA5KBS": {
-        "total_eventos": 1,
-        "eventos": [
-            "Heladera"
-        ]
-    },
-    "EA3IYN": {
-        "total_eventos": 1,
-        "eventos": [
-            "Heladera"
-        ]
-    },
-    "LW7ELF": {
-        "total_eventos": 1,
-        "eventos": [
-            "Heladera"
-        ]
-    },
-    "PP5PK": {
+    "WP4TZM": {
         "total_eventos": 1,
         "eventos": [
             "Heladera"
@@ -627,7 +634,33 @@
             "Heladera"
         ]
     },
-    "YC0ASW": {
+    "LW7ELF": {
+        "total_eventos": 1,
+        "eventos": [
+            "Heladera"
+        ]
+    },
+    "EA3IYN": {
+        "total_eventos": 2,
+        "eventos": [
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "PP5PK": {
+        "total_eventos": 2,
+        "eventos": [
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "HJ3HAG": {
+        "total_eventos": 1,
+        "eventos": [
+            "Heladera"
+        ]
+    },
+    "EA5KBS": {
         "total_eventos": 1,
         "eventos": [
             "Heladera"
@@ -639,19 +672,27 @@
             "Heladera"
         ]
     },
-    "WP4TZM": {
-        "total_eventos": 1,
+    "YC0ASW": {
+        "total_eventos": 2,
         "eventos": [
-            "Heladera"
+            "Heladera",
+            "Teem"
         ]
     },
-    "BB26BYQ": {
+    "DL5XL": {
+        "total_eventos": 2,
+        "eventos": [
+            "Heladera",
+            "Teem"
+        ]
+    },
+    "YD3BEY": {
         "total_eventos": 1,
         "eventos": [
             "Pumper"
         ]
     },
-    "YD3BEY": {
+    "BB26BYQ": {
         "total_eventos": 1,
         "eventos": [
             "Pumper"
@@ -667,6 +708,54 @@
         "total_eventos": 1,
         "eventos": [
             "Suchard"
+        ]
+    },
+    "YD6AXX": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "XE1ZKC": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "YC6BH": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "YC1IVW": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "YD6ATD": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "XE2JJC": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "9W8LLY": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
+        ]
+    },
+    "YD3ACK": {
+        "total_eventos": 1,
+        "eventos": [
+            "Teem"
         ]
     }
 }
