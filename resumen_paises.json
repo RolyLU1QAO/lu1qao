@@ -2,12 +2,17 @@
     {
         "pais": "Indonesia",
         "iso": "id",
-        "estaciones": 16
+        "estaciones": 25
     },
     {
         "pais": "Argentina",
         "iso": "ar",
-        "estaciones": 9
+        "estaciones": 14
+    },
+    {
+        "pais": "Chile",
+        "iso": "cl",
+        "estaciones": 5
     },
     {
         "pais": "Malasia",
@@ -17,26 +22,56 @@
     {
         "pais": "Alemania",
         "iso": "de",
-        "estaciones": 2
+        "estaciones": 5
     },
     {
-        "pais": "Brasil",
-        "iso": "br",
-        "estaciones": 2
+        "pais": "Ecuador",
+        "iso": "ec",
+        "estaciones": 4
     },
     {
         "pais": "Turquía",
         "iso": "tr",
+        "estaciones": 3
+    },
+    {
+        "pais": "Brasil",
+        "iso": "br",
+        "estaciones": 3
+    },
+    {
+        "pais": "España",
+        "iso": "es",
         "estaciones": 2
     },
     {
-        "pais": "Chile",
-        "iso": "cl",
-        "estaciones": 1
+        "pais": "Estados Unidos",
+        "iso": "us",
+        "estaciones": 2
     },
     {
         "pais": "Uruguay",
         "iso": "uy",
+        "estaciones": 2
+    },
+    {
+        "pais": "Venezuela",
+        "iso": "ve",
+        "estaciones": 1
+    },
+    {
+        "pais": "Puerto Rico",
+        "iso": "pr",
+        "estaciones": 1
+    },
+    {
+        "pais": "Canarias",
+        "iso": "es",
+        "estaciones": 1
+    },
+    {
+        "pais": "India",
+        "iso": "un",
         "estaciones": 1
     },
     {
@@ -45,8 +80,13 @@
         "estaciones": 1
     },
     {
-        "pais": "Puerto Rico",
-        "iso": "pr",
+        "pais": "Colombia",
+        "iso": "co",
+        "estaciones": 1
+    },
+    {
+        "pais": "Perú",
+        "iso": "pe",
         "estaciones": 1
     }
 ]
