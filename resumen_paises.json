@@ -20,8 +20,8 @@
         "estaciones": 8
     },
     {
-        "pais": "Malasia",
-        "iso": "my",
+        "pais": "Chile",
+        "iso": "cl",
         "estaciones": 5
     },
     {
@@ -30,8 +30,8 @@
         "estaciones": 5
     },
     {
-        "pais": "Chile",
-        "iso": "cl",
+        "pais": "Malasia",
+        "iso": "my",
         "estaciones": 5
     },
     {
@@ -50,6 +50,11 @@
         "estaciones": 3
     },
     {
+        "pais": "Puerto Rico",
+        "iso": "pr",
+        "estaciones": 2
+    },
+    {
         "pais": "Uruguay",
         "iso": "uy",
         "estaciones": 2
@@ -60,18 +65,8 @@
         "estaciones": 2
     },
     {
-        "pais": "Puerto Rico",
-        "iso": "pr",
-        "estaciones": 2
-    },
-    {
         "pais": "Polonia",
         "iso": "pl",
-        "estaciones": 1
-    },
-    {
-        "pais": "Canarias",
-        "iso": "es",
         "estaciones": 1
     },
     {
@@ -80,13 +75,18 @@
         "estaciones": 1
     },
     {
+        "pais": "Canarias",
+        "iso": "es",
+        "estaciones": 1
+    },
+    {
         "pais": "Cuba",
         "iso": "cu",
         "estaciones": 1
     },
     {
-        "pais": "Sudáfrica",
-        "iso": "un",
+        "pais": "Perú",
+        "iso": "pe",
         "estaciones": 1
     },
     {
@@ -95,8 +95,8 @@
         "estaciones": 1
     },
     {
-        "pais": "Perú",
-        "iso": "pe",
+        "pais": "Sudáfrica",
+        "iso": "un",
         "estaciones": 1
     }
 ]
