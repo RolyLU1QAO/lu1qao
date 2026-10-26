@@ -20,11 +20,6 @@
         "estaciones": 8
     },
     {
-        "pais": "Malasia",
-        "iso": "my",
-        "estaciones": 5
-    },
-    {
         "pais": "Chile",
         "iso": "cl",
         "estaciones": 5
@@ -35,18 +30,23 @@
         "estaciones": 5
     },
     {
+        "pais": "Malasia",
+        "iso": "my",
+        "estaciones": 5
+    },
+    {
         "pais": "Ecuador",
         "iso": "ec",
         "estaciones": 4
     },
     {
-        "pais": "Estados Unidos",
-        "iso": "us",
+        "pais": "Turquía",
+        "iso": "tr",
         "estaciones": 3
     },
     {
-        "pais": "Turquía",
-        "iso": "tr",
+        "pais": "Estados Unidos",
+        "iso": "us",
         "estaciones": 3
     },
     {
@@ -55,38 +55,23 @@
         "estaciones": 2
     },
     {
-        "pais": "Colombia",
-        "iso": "co",
-        "estaciones": 2
-    },
-    {
         "pais": "Puerto Rico",
         "iso": "pr",
         "estaciones": 2
     },
     {
+        "pais": "Colombia",
+        "iso": "co",
+        "estaciones": 2
+    },
+    {
+        "pais": "Polonia",
+        "iso": "pl",
+        "estaciones": 1
+    },
+    {
         "pais": "Canarias",
-        "iso": "es-cn",
-        "estaciones": 1
-    },
-    {
-        "pais": "Perú",
-        "iso": "pe",
-        "estaciones": 1
-    },
-    {
-        "pais": "Sudáfrica",
-        "iso": "za",
-        "estaciones": 1
-    },
-    {
-        "pais": "Venezuela",
-        "iso": "ve",
-        "estaciones": 1
-    },
-    {
-        "pais": "Cuba",
-        "iso": "cu",
+        "iso": "es",
         "estaciones": 1
     },
     {
@@ -95,8 +80,23 @@
         "estaciones": 1
     },
     {
-        "pais": "Polonia",
-        "iso": "pl",
+        "pais": "Venezuela",
+        "iso": "ve",
+        "estaciones": 1
+    },
+    {
+        "pais": "Sudáfrica",
+        "iso": "za",
+        "estaciones": 1
+    },
+    {
+        "pais": "Perú",
+        "iso": "pe",
+        "estaciones": 1
+    },
+    {
+        "pais": "Cuba",
+        "iso": "cu",
         "estaciones": 1
     }
 ]
