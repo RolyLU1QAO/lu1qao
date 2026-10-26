@@ -2,21 +2,31 @@
     {
         "pais": "Indonesia",
         "iso": "id",
-        "estaciones": 25
+        "estaciones": 35
     },
     {
         "pais": "Argentina",
         "iso": "ar",
-        "estaciones": 14
+        "estaciones": 17
     },
     {
-        "pais": "Alemania",
-        "iso": "de",
-        "estaciones": 5
+        "pais": "Brasil",
+        "iso": "br",
+        "estaciones": 10
+    },
+    {
+        "pais": "España",
+        "iso": "es",
+        "estaciones": 8
     },
     {
         "pais": "Malasia",
         "iso": "my",
+        "estaciones": 5
+    },
+    {
+        "pais": "Alemania",
+        "iso": "de",
         "estaciones": 5
     },
     {
@@ -35,19 +45,9 @@
         "estaciones": 3
     },
     {
-        "pais": "Brasil",
-        "iso": "br",
-        "estaciones": 3
-    },
-    {
-        "pais": "España",
-        "iso": "es",
-        "estaciones": 2
-    },
-    {
         "pais": "Estados Unidos",
         "iso": "us",
-        "estaciones": 2
+        "estaciones": 3
     },
     {
         "pais": "Uruguay",
@@ -55,18 +55,23 @@
         "estaciones": 2
     },
     {
+        "pais": "Colombia",
+        "iso": "co",
+        "estaciones": 2
+    },
+    {
+        "pais": "Puerto Rico",
+        "iso": "pr",
+        "estaciones": 2
+    },
+    {
+        "pais": "Polonia",
+        "iso": "pl",
+        "estaciones": 1
+    },
+    {
         "pais": "Canarias",
         "iso": "es",
-        "estaciones": 1
-    },
-    {
-        "pais": "Cuba",
-        "iso": "cu",
-        "estaciones": 1
-    },
-    {
-        "pais": "Venezuela",
-        "iso": "ve",
         "estaciones": 1
     },
     {
@@ -75,18 +80,23 @@
         "estaciones": 1
     },
     {
-        "pais": "Colombia",
-        "iso": "co",
+        "pais": "Cuba",
+        "iso": "cu",
+        "estaciones": 1
+    },
+    {
+        "pais": "Sudáfrica",
+        "iso": "un",
+        "estaciones": 1
+    },
+    {
+        "pais": "Venezuela",
+        "iso": "ve",
         "estaciones": 1
     },
     {
         "pais": "Perú",
         "iso": "pe",
-        "estaciones": 1
-    },
-    {
-        "pais": "Puerto Rico",
-        "iso": "pr",
         "estaciones": 1
     }
 ]
