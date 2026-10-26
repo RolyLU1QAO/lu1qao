@@ -20,11 +20,6 @@
         "estaciones": 8
     },
     {
-        "pais": "Chile",
-        "iso": "cl",
-        "estaciones": 5
-    },
-    {
         "pais": "Alemania",
         "iso": "de",
         "estaciones": 5
@@ -35,14 +30,14 @@
         "estaciones": 5
     },
     {
+        "pais": "Chile",
+        "iso": "cl",
+        "estaciones": 5
+    },
+    {
         "pais": "Ecuador",
         "iso": "ec",
         "estaciones": 4
-    },
-    {
-        "pais": "Turquía",
-        "iso": "tr",
-        "estaciones": 3
     },
     {
         "pais": "Estados Unidos",
@@ -50,9 +45,9 @@
         "estaciones": 3
     },
     {
-        "pais": "Puerto Rico",
-        "iso": "pr",
-        "estaciones": 2
+        "pais": "Turquía",
+        "iso": "tr",
+        "estaciones": 3
     },
     {
         "pais": "Uruguay",
@@ -60,9 +55,29 @@
         "estaciones": 2
     },
     {
+        "pais": "Puerto Rico",
+        "iso": "pr",
+        "estaciones": 2
+    },
+    {
         "pais": "Colombia",
         "iso": "co",
         "estaciones": 2
+    },
+    {
+        "pais": "Perú",
+        "iso": "pe",
+        "estaciones": 1
+    },
+    {
+        "pais": "Cuba",
+        "iso": "cu",
+        "estaciones": 1
+    },
+    {
+        "pais": "Sudáfrica",
+        "iso": "za",
+        "estaciones": 1
     },
     {
         "pais": "Polonia",
@@ -75,28 +90,13 @@
         "estaciones": 1
     },
     {
-        "pais": "Canarias",
-        "iso": "es",
-        "estaciones": 1
-    },
-    {
-        "pais": "Cuba",
-        "iso": "cu",
-        "estaciones": 1
-    },
-    {
-        "pais": "Perú",
-        "iso": "pe",
-        "estaciones": 1
-    },
-    {
         "pais": "Venezuela",
         "iso": "ve",
         "estaciones": 1
     },
     {
-        "pais": "Sudáfrica",
-        "iso": "un",
+        "pais": "Canarias",
+        "iso": "ic",
         "estaciones": 1
     }
 ]
