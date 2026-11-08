@@ -2,17 +2,12 @@
     {
         "pais": "Indonesia",
         "iso": "id",
-        "estaciones": 46
+        "estaciones": 50
     },
     {
         "pais": "Argentina",
         "iso": "ar",
-        "estaciones": 18
-    },
-    {
-        "pais": "Brasil",
-        "iso": "br",
-        "estaciones": 10
+        "estaciones": 19
     },
     {
         "pais": "España",
@@ -20,8 +15,18 @@
         "estaciones": 10
     },
     {
+        "pais": "Brasil",
+        "iso": "br",
+        "estaciones": 10
+    },
+    {
         "pais": "Chile",
         "iso": "cl",
+        "estaciones": 8
+    },
+    {
+        "pais": "Ecuador",
+        "iso": "ec",
         "estaciones": 7
     },
     {
@@ -30,8 +35,8 @@
         "estaciones": 6
     },
     {
-        "pais": "Ecuador",
-        "iso": "ec",
+        "pais": "Perú",
+        "iso": "pe",
         "estaciones": 6
     },
     {
@@ -40,8 +45,8 @@
         "estaciones": 5
     },
     {
-        "pais": "Perú",
-        "iso": "pe",
+        "pais": "Venezuela",
+        "iso": "ve",
         "estaciones": 5
     },
     {
@@ -55,23 +60,18 @@
         "estaciones": 3
     },
     {
-        "pais": "Colombia",
-        "iso": "co",
-        "estaciones": 3
-    },
-    {
         "pais": "Turquía",
         "iso": "tr",
         "estaciones": 3
     },
     {
-        "pais": "Venezuela",
-        "iso": "ve",
+        "pais": "Colombia",
+        "iso": "co",
         "estaciones": 3
     },
     {
-        "pais": "Uruguay",
-        "iso": "uy",
+        "pais": "Puerto Rico",
+        "iso": "pr",
         "estaciones": 2
     },
     {
@@ -80,13 +80,18 @@
         "estaciones": 2
     },
     {
-        "pais": "Puerto Rico",
-        "iso": "pr",
+        "pais": "Canarias",
+        "iso": "es",
         "estaciones": 2
     },
     {
-        "pais": "India",
-        "iso": "in",
+        "pais": "Uruguay",
+        "iso": "uy",
+        "estaciones": 2
+    },
+    {
+        "pais": "Cuba",
+        "iso": "cu",
         "estaciones": 1
     },
     {
@@ -95,8 +100,8 @@
         "estaciones": 1
     },
     {
-        "pais": "Cuba",
-        "iso": "cu",
+        "pais": "India",
+        "iso": "in",
         "estaciones": 1
     },
     {
@@ -107,11 +112,6 @@
     {
         "pais": "Polonia",
         "iso": "pl",
-        "estaciones": 1
-    },
-    {
-        "pais": "Canarias",
-        "iso": "es",
         "estaciones": 1
     }
 ]

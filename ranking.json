@@ -1,159 +1,39 @@
 {
-    "YC2UAI": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "CA4FAX": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "CO5ABC": {
+    "DO2FWS": {
         "total_eventos": 2,
         "eventos": [
             "01.Fleming",
-            "04.Fm"
+            "02.Forest"
         ]
     },
-    "YD2VKR": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "04.Fm"
-        ]
-    },
-    "YD2VLD": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin"
-        ]
-    },
-    "YD6ASL": {
-        "total_eventos": 4,
+    "YD4AAE": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "LU9DUV": {
-        "total_eventos": 4,
+    "PP5PK": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "9W8LLY": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "04.Fm"
-        ]
-    },
-    "LU2EQI": {
-        "total_eventos": 4,
+    "PY2KMR": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU9EFF": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD6HWZ": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD3AFS": {
-        "total_eventos": 3,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD6HHD": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
-        ]
-    },
-    "9W3EZY": {
-        "total_eventos": 3,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD6HMM": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LW3DFA": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "9W8RBR": {
-        "total_eventos": 3,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU6EGD": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YG1CBG": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "9W8NNN": {
@@ -161,22 +41,79 @@
         "eventos": [
             "01.Fleming",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "YD2BBH": {
+    "LU6EGD": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD1AXK": {
         "total_eventos": 1,
         "eventos": [
             "01.Fleming"
         ]
     },
-    "YD4AAE": {
-        "total_eventos": 4,
+    "LW3DFA": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "DO1FFO": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "KP4LCA": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "CA4FAX": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD2VKR": {
+        "total_eventos": 2,
+        "eventos": [
+            "01.Fleming",
+            "04 Fm"
+        ]
+    },
+    "LU9EFF": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YD3ACK": {
@@ -185,71 +122,54 @@
             "01.Fleming"
         ]
     },
-    "YD6AOR": {
-        "total_eventos": 4,
+    "LU9TRL": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "DO2FWS": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest"
-        ]
-    },
-    "PP5PK": {
-        "total_eventos": 4,
+    "CX2TG": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "PY2KMR": {
-        "total_eventos": 4,
+    "LU2EQI": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "KP4LCA": {
-        "total_eventos": 4,
+    "YD6ASL": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "TA2KMG": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "LU7QAY": {
-        "total_eventos": 4,
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "CX3JG": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "9W3FAB": {
@@ -257,10 +177,60 @@
         "eventos": [
             "01.Fleming",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "LU5VRN": {
+    "TA7HF": {
+        "total_eventos": 1,
+        "eventos": [
+            "01.Fleming"
+        ]
+    },
+    "YD6HMM": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD2BBH": {
+        "total_eventos": 1,
+        "eventos": [
+            "01.Fleming"
+        ]
+    },
+    "LU1QCH": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "CO5ABC": {
+        "total_eventos": 3,
+        "eventos": [
+            "01.Fleming",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YG1CBG": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "TA2KMG": {
         "total_eventos": 1,
         "eventos": [
             "01.Fleming"
@@ -271,28 +241,17 @@
         "eventos": [
             "01.Fleming",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "CX2TG": {
-        "total_eventos": 4,
+    "LU9DUV": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD1AXK": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
-        ]
-    },
-    "TA7HF": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YD6AXX": {
@@ -300,234 +259,126 @@
         "eventos": [
             "01.Fleming",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "LU1QCH": {
+    "YD6HWZ": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD6AOR": {
         "total_eventos": 4,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "LU9TRL": {
+    "9W8LLY": {
+        "total_eventos": 2,
+        "eventos": [
+            "01.Fleming",
+            "04 Fm"
+        ]
+    },
+    "9W8RBR": {
+        "total_eventos": 3,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04 Fm"
+        ]
+    },
+    "9W3EZY": {
+        "total_eventos": 3,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04 Fm"
+        ]
+    },
+    "YD6HHD": {
+        "total_eventos": 1,
+        "eventos": [
+            "01.Fleming"
+        ]
+    },
+    "YC2UAI": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD3AFS": {
         "total_eventos": 4,
         "eventos": [
             "01.Fleming",
-            "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "DO1FFO": {
+    "CX3JG": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "LU5VRN": {
+        "total_eventos": 2,
+        "eventos": [
+            "01.Fleming",
+            "05.Bipolar"
+        ]
+    },
+    "YD2VLD": {
         "total_eventos": 3,
         "eventos": [
             "01.Fleming",
             "03.Edwin",
-            "04.Fm"
+            "05.Bipolar"
         ]
     },
-    "CE4JWI": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin"
-        ]
-    },
-    "VU25RK": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "04.Fm"
-        ]
-    },
-    "EA8CXW": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "EA3JBB": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LW7EDH": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "PU2BFG": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin"
-        ]
-    },
-    "YD6AOH": {
+    "OA4DVG": {
         "total_eventos": 1,
         "eventos": [
             "02.Forest"
         ]
     },
-    "W4CVT": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "KE4PIC": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "HJ7OZ": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "04.Fm"
-        ]
-    },
-    "EA5KBS": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU4FGS": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "DL5XL": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin"
-        ]
-    },
-    "TA3CKY": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "HC3RJ": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD6ASS": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "04.Fm"
-        ]
-    },
-    "CA3PVF": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "04.Fm"
-        ]
-    },
-    "HC3RB": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD3HNL": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU2XCV": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "HC1FQ": {
-        "total_eventos": 2,
-        "eventos": [
-            "02.Forest",
-            "04.Fm"
-        ]
-    },
-    "YD6ALG": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
     "LU1XLI": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "DK5TTB": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YG3COM": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "YC0ASW": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU1HFE": {
+    "YB3UNG": {
         "total_eventos": 1,
         "eventos": [
             "02.Forest"
@@ -541,47 +392,124 @@
         ]
     },
     "DH3AX": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "YG3FLB": {
-        "total_eventos": 3,
+    "LW7EDH": {
+        "total_eventos": 4,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD6AOH": {
+        "total_eventos": 1,
+        "eventos": [
+            "02.Forest"
+        ]
+    },
+    "EA5KBS": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YV5GHW": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HJ7OZ": {
+        "total_eventos": 2,
+        "eventos": [
+            "02.Forest",
+            "04 Fm"
+        ]
+    },
+    "YD6ASS": {
+        "total_eventos": 2,
+        "eventos": [
+            "02.Forest",
+            "04 Fm"
+        ]
+    },
+    "DK5TTB": {
         "total_eventos": 3,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "YB3UNG": {
-        "total_eventos": 1,
+    "VU25RK": {
+        "total_eventos": 2,
         "eventos": [
-            "02.Forest"
+            "02.Forest",
+            "04 Fm"
         ]
     },
-    "YG3EKK": {
+    "LU4FGS": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HC1FQ": {
+        "total_eventos": 3,
+        "eventos": [
+            "02.Forest",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "CE4JWI": {
+        "total_eventos": 2,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin"
+        ]
+    },
+    "LU2XCV": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "PU2BFG": {
         "total_eventos": 3,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "05.Bipolar"
         ]
     },
-    "OA4DVG": {
-        "total_eventos": 1,
+    "HC1Y": {
+        "total_eventos": 4,
         "eventos": [
-            "02.Forest"
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "CA4SVL": {
@@ -590,52 +518,163 @@
             "02.Forest"
         ]
     },
-    "HC1Y": {
+    "YG3FLB": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "LU1HFE": {
+        "total_eventos": 1,
+        "eventos": [
+            "02.Forest"
+        ]
+    },
+    "EA8CXW": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD6ALG": {
         "total_eventos": 3,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "HJ3HAG": {
-        "total_eventos": 1,
+    "YC0ASW": {
+        "total_eventos": 3,
         "eventos": [
-            "03.Edwin"
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm"
         ]
     },
-    "YD6SRR": {
+    "EA3JBB": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "DL5XL": {
+        "total_eventos": 3,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "05.Bipolar"
+        ]
+    },
+    "YD3HNL": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HC3RB": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "W4CVT": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HC3RJ": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "KE4PIC": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YG3EKK": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "TA3CKY": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "CA3PVF": {
+        "total_eventos": 3,
+        "eventos": [
+            "02.Forest",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "LU5EQG": {
         "total_eventos": 2,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
+        ]
+    },
+    "EA1KBI": {
+        "total_eventos": 3,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "SP1RAC": {
-        "total_eventos": 2,
+        "total_eventos": 3,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "EA3FJT": {
-        "total_eventos": 2,
+    "YD2UMH": {
+        "total_eventos": 3,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD0BQO": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "YD2UNL": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YC2UGE": {
@@ -644,61 +683,83 @@
             "03.Edwin"
         ]
     },
-    "PU4RDM": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YC1IVW": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU5EQG": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "PY1RV": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
     "YE3ESW": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
         ]
     },
-    "PY5TJ": {
+    "LW1DOW": {
+        "total_eventos": 3,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YC1IVW": {
+        "total_eventos": 2,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm"
+        ]
+    },
+    "YD3ATQ": {
+        "total_eventos": 2,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm"
+        ]
+    },
+    "YD0BQO": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
         ]
     },
-    "YD6ATL": {
-        "total_eventos": 2,
+    "PU2MUS": {
+        "total_eventos": 1,
         "eventos": [
-            "03.Edwin",
-            "04.Fm"
+            "03.Edwin"
         ]
     },
-    "YD2UMH": {
-        "total_eventos": 2,
+    "YD6SRR": {
+        "total_eventos": 3,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "PY5SG": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "HJ3HAG": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "YD2UNL": {
+        "total_eventos": 3,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "EA1AUM": {
+        "total_eventos": 3,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "KR4OUK": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
@@ -708,94 +769,29 @@
         "total_eventos": 2,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "PY4EO": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD7VTG": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "YD3ATQ": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "WP4TZM": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "EA1KBI": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "PU2MUS": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "LW1DOW": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU4EOU": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "EA7FP": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "KR4OUK": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "EB5IRA": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
+            "04 Fm"
         ]
     },
     "EA7LKN": {
         "total_eventos": 2,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
         ]
     },
-    "EA1AUM": {
+    "PY4EO": {
         "total_eventos": 2,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04 Fm"
+        ]
+    },
+    "LU4EOU": {
+        "total_eventos": 3,
+        "eventos": [
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "PY5POL": {
@@ -804,202 +800,354 @@
             "03.Edwin"
         ]
     },
-    "HK3JAT": {
+    "YD7VTG": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
+            "03.Edwin"
         ]
     },
-    "YD6BUP": {
-        "total_eventos": 1,
+    "PY1RV": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "YD6BMN": {
-        "total_eventos": 1,
+    "PU4RDM": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "EB4EWI": {
-        "total_eventos": 1,
+    "YD6ATL": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "XE1JMB": {
-        "total_eventos": 1,
+    "EA3FJT": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "YC6AEE": {
-        "total_eventos": 1,
+    "EB5IRA": {
+        "total_eventos": 2,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "05.Bipolar"
         ]
     },
-    "LU8HRC": {
+    "PY5TJ": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
+            "03.Edwin"
         ]
     },
-    "KG4TRV": {
-        "total_eventos": 1,
+    "EA7FP": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "CA3EQX": {
-        "total_eventos": 1,
+    "WP4TZM": {
+        "total_eventos": 3,
         "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YD7KVL": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "HR2LED": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YY6RTJ": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4DOS": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YD6AAE": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "DA2SE": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "XE1LAB": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "HQ2CAG": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4DKS": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "EA1FIR": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YN1ZJK": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YY3CCL": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "XE2JJC": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YD2UUR": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "YD6ANI": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
+            "04 Fm"
+        ]
+    },
+    "XE1LAB": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YC6AEE": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "YN1ZJK": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "OA4DKS": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "OA4EGY": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD7KVL": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HQ2CAG": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "KG4TRV": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "EB4EWI": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "OA4DOS": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YY3CCL": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
     "HC2LL": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YB2XLM": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4EAN": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "HC1M": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4EGY": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "CE7SOX": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
+            "04 Fm"
         ]
     },
     "YC1SNI": {
-        "total_eventos": 1,
+        "total_eventos": 2,
         "eventos": [
-            "04.Fm"
+            "04 Fm",
+            "05.Bipolar"
         ]
     },
-    "YB0TNS": {
+    "YD6BUP": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "DA2SE": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
+            "04 Fm"
+        ]
+    },
+    "YY6RTJ": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "HR2LED": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "CA3EQX": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "XE2JJC": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "LU8HRC": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
         ]
     },
     "YD6ASC": {
         "total_eventos": 1,
         "eventos": [
-            "04.Fm"
+            "04 Fm"
+        ]
+    },
+    "YD6AAE": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "CE7SOX": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "EA1FIR": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "YD2UUR": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "HK3JAT": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YD6BMN": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "OA4EAN": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "XE1JMB": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "HC1M": {
+        "total_eventos": 2,
+        "eventos": [
+            "04 Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YB0TNS": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "YB2XLM": {
+        "total_eventos": 1,
+        "eventos": [
+            "04 Fm"
+        ]
+    },
+    "LU4HEP": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "CE8TDO": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "OA4DFM": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YY4BAJ": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YD2UMD": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YD6AWR": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "HC6AC": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YY4OPM": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YC3CCG": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "EA8CPU": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "YD5HBH": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
         ]
     }
 }
