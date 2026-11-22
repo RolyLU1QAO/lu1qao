@@ -1,258 +1,31 @@
 {
-    "9W3FAB": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "KP4LCA": {
-        "total_eventos": 6,
+    "LU9EFF": {
+        "total_eventos": 7,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YD2BBH": {
+    "TA7HF": {
         "total_eventos": 1,
         "eventos": [
             "01.Fleming"
         ]
     },
-    "9W8LLY": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "04.Fm"
-        ]
-    },
-    "YD6ASL": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "CX2TG": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "CA4FAX": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "TA2KMG": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
-        ]
-    },
-    "YG1CBG": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6HMM": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU1QCH": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YC6ANO": {
+    "LU5VRN": {
         "total_eventos": 3,
         "eventos": [
             "01.Fleming",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "LU7QAY": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "07.Mosfet"
         ]
     },
-    "DO2FWS": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest"
-        ]
-    },
-    "YD6HHD": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "06.Micro"
-        ]
-    },
-    "YD6AOR": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "YD3AFS": {
-        "total_eventos": 5,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "9W8NNN": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "DO1FFO": {
-        "total_eventos": 5,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6AXX": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "CO5ABC": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU9TRL": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "9W8RBR": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "YD1AXK": {
-        "total_eventos": 1,
-        "eventos": [
-            "01.Fleming"
-        ]
-    },
-    "YD6HWZ": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YC2UAI": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PY2KMR": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU2EQI": {
+    "PP5PK": {
         "total_eventos": 6,
         "eventos": [
             "01.Fleming",
@@ -270,81 +43,49 @@
             "04.Fm"
         ]
     },
-    "LU5VRN": {
-        "total_eventos": 2,
-        "eventos": [
-            "01.Fleming",
-            "05.Bipolar"
-        ]
-    },
-    "LW3DFA": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
     "LU6EGD": {
-        "total_eventos": 6,
+        "total_eventos": 7,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "LU9DUV": {
-        "total_eventos": 6,
+    "CO5ABC": {
+        "total_eventos": 5,
         "eventos": [
             "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YD2VLD": {
-        "total_eventos": 4,
-        "eventos": [
-            "01.Fleming",
-            "03.Edwin",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU9EFF": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PP5PK": {
-        "total_eventos": 6,
-        "eventos": [
-            "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "TA7HF": {
+    "TA2KMG": {
         "total_eventos": 1,
         "eventos": [
             "01.Fleming"
+        ]
+    },
+    "YD1AXK": {
+        "total_eventos": 1,
+        "eventos": [
+            "01.Fleming"
+        ]
+    },
+    "DO1FFO": {
+        "total_eventos": 6,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "9W3EZY": {
@@ -356,26 +97,24 @@
             "06.Micro"
         ]
     },
-    "CX3JG": {
-        "total_eventos": 6,
+    "YD6HHD": {
+        "total_eventos": 3,
         "eventos": [
             "01.Fleming",
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YD4AAE": {
-        "total_eventos": 6,
+    "LU9TRL": {
+        "total_eventos": 7,
         "eventos": [
             "01.Fleming",
             "02.Forest",
             "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "YD3ACK": {
@@ -384,9 +123,207 @@
             "01.Fleming"
         ]
     },
-    "W4CVT": {
+    "CA4FAX": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "CX2TG": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "LU1QCH": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6HWZ": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6ASL": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD4AAE": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YC6ANO": {
+        "total_eventos": 3,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm"
+        ]
+    },
+    "DO2FWS": {
+        "total_eventos": 2,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest"
+        ]
+    },
+    "9W8NNN": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "06.Micro"
+        ]
+    },
+    "LU7QAY": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6HMM": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD3AFS": {
         "total_eventos": 5,
         "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro"
+        ]
+    },
+    "YC2UAI": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6AOR": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm"
+        ]
+    },
+    "YD2BBH": {
+        "total_eventos": 1,
+        "eventos": [
+            "01.Fleming"
+        ]
+    },
+    "LU9DUV": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "9W3FAB": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "06.Micro"
+        ]
+    },
+    "YD6AXX": {
+        "total_eventos": 5,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "9W8RBR": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "04.Fm",
+            "06.Micro"
+        ]
+    },
+    "LU2EQI": {
+        "total_eventos": 6,
+        "eventos": [
+            "01.Fleming",
             "02.Forest",
             "03.Edwin",
             "04.Fm",
@@ -394,43 +331,124 @@
             "06.Micro"
         ]
     },
-    "CA3PVF": {
+    "LW3DFA": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YG1CBG": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD2VLD": {
+        "total_eventos": 4,
+        "eventos": [
+            "01.Fleming",
+            "03.Edwin",
+            "05.Bipolar",
+            "06.Micro"
+        ]
+    },
+    "CX3JG": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "KP4LCA": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "PY2KMR": {
+        "total_eventos": 7,
+        "eventos": [
+            "01.Fleming",
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "9W8LLY": {
+        "total_eventos": 2,
+        "eventos": [
+            "01.Fleming",
+            "04.Fm"
+        ]
+    },
+    "YD6ALG": {
+        "total_eventos": 3,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm"
+        ]
+    },
+    "HC3RB": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6AOH": {
+        "total_eventos": 1,
+        "eventos": [
+            "02.Forest"
+        ]
+    },
+    "CE4JWI": {
         "total_eventos": 4,
         "eventos": [
             "02.Forest",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "03.Edwin",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "LU2XCV": {
+    "DK5TTB": {
         "total_eventos": 5,
         "eventos": [
             "02.Forest",
             "03.Edwin",
             "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU4FGS": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "TA3CKY": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "YD6ASS": {
@@ -440,21 +458,32 @@
             "04.Fm"
         ]
     },
-    "PU2BFG": {
-        "total_eventos": 4,
+    "LU2XCV": {
+        "total_eventos": 6,
         "eventos": [
             "02.Forest",
             "03.Edwin",
+            "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YC0ASW": {
-        "total_eventos": 3,
+    "LU1HFE": {
+        "total_eventos": 1,
+        "eventos": [
+            "02.Forest"
+        ]
+    },
+    "YG3EKK": {
+        "total_eventos": 6,
         "eventos": [
             "02.Forest",
             "03.Edwin",
-            "04.Fm"
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "YB3UNG": {
@@ -463,33 +492,15 @@
             "02.Forest"
         ]
     },
-    "HC1FQ": {
-        "total_eventos": 4,
-        "eventos": [
-            "02.Forest",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YG3COM": {
-        "total_eventos": 5,
+    "HC1Y": {
+        "total_eventos": 6,
         "eventos": [
             "02.Forest",
             "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "HC3RJ": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "DL5XL": {
@@ -500,11 +511,164 @@
             "05.Bipolar"
         ]
     },
-    "CA3MKF": {
-        "total_eventos": 2,
+    "YG3FLB": {
+        "total_eventos": 6,
         "eventos": [
             "02.Forest",
-            "03.Edwin"
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "W4CVT": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EA5KBS": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "KE4PIC": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YV5GHW": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YG3COM": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "PU2BFG": {
+        "total_eventos": 5,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EA8CXW": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "DH3AX": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "VU25RK": {
+        "total_eventos": 3,
+        "eventos": [
+            "02.Forest",
+            "04.Fm",
+            "07.Mosfet"
+        ]
+    },
+    "HC1FQ": {
+        "total_eventos": 5,
+        "eventos": [
+            "02.Forest",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "TA3CKY": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "HC3RJ": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "LU1XLI": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD3HNL": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "EA3JBB": {
@@ -517,157 +681,14 @@
             "06.Micro"
         ]
     },
-    "OA4DVG": {
-        "total_eventos": 1,
-        "eventos": [
-            "02.Forest"
-        ]
-    },
-    "YG3EKK": {
+    "CA3PVF": {
         "total_eventos": 5,
         "eventos": [
             "02.Forest",
-            "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "EA5KBS": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6ALG": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm"
-        ]
-    },
-    "EA8CXW": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LU1XLI": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "HC1Y": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LW7EDH": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YG3FLB": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "KE4PIC": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "DH3AX": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6AOH": {
-        "total_eventos": 1,
-        "eventos": [
-            "02.Forest"
-        ]
-    },
-    "YV5GHW": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "DK5TTB": {
-        "total_eventos": 4,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "HC3RB": {
-        "total_eventos": 5,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "CE4JWI": {
-        "total_eventos": 3,
-        "eventos": [
-            "02.Forest",
-            "03.Edwin",
-            "06.Micro"
-        ]
-    },
-    "LU1HFE": {
-        "total_eventos": 1,
-        "eventos": [
-            "02.Forest"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "HJ7OZ": {
@@ -678,14 +699,15 @@
             "06.Micro"
         ]
     },
-    "YD3HNL": {
-        "total_eventos": 5,
+    "LW7EDH": {
+        "total_eventos": 6,
         "eventos": [
             "02.Forest",
             "03.Edwin",
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "CA4SVL": {
@@ -694,19 +716,146 @@
             "02.Forest"
         ]
     },
-    "VU25RK": {
+    "LU4FGS": {
+        "total_eventos": 6,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "OA4DVG": {
+        "total_eventos": 1,
+        "eventos": [
+            "02.Forest"
+        ]
+    },
+    "YC0ASW": {
+        "total_eventos": 4,
+        "eventos": [
+            "02.Forest",
+            "03.Edwin",
+            "04.Fm",
+            "07.Mosfet"
+        ]
+    },
+    "CA3MKF": {
         "total_eventos": 2,
         "eventos": [
             "02.Forest",
-            "04.Fm"
+            "03.Edwin"
         ]
     },
-    "YD2UMH": {
+    "PY5TJ": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "HJ3HAG": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "PY1RV": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "PU2MUS": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "LW1DOW": {
         "total_eventos": 3,
         "eventos": [
             "03.Edwin",
             "04.Fm",
             "05.Bipolar"
+        ]
+    },
+    "WP4TZM": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EA7FP": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "LU4EOU": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD2UNL": {
+        "total_eventos": 4,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro"
+        ]
+    },
+    "EA3FJT": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EA1AUM": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EB5IRA": {
+        "total_eventos": 2,
+        "eventos": [
+            "03.Edwin",
+            "05.Bipolar"
+        ]
+    },
+    "YC1IVW": {
+        "total_eventos": 2,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm"
         ]
     },
     "KR4OUK": {
@@ -723,115 +872,7 @@
             "06.Micro"
         ]
     },
-    "EB5IRA": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "05.Bipolar"
-        ]
-    },
-    "YD7VTG": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "YD6SRR": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "LW1DOW": {
-        "total_eventos": 3,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar"
-        ]
-    },
-    "YD0BQO": {
-        "total_eventos": 2,
-        "eventos": [
-            "03.Edwin",
-            "06.Micro"
-        ]
-    },
-    "EA3FJT": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD2UNL": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "EA1KBI": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PY5SG": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "HJ3HAG": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "YE3ESW": {
-        "total_eventos": 1,
-        "eventos": [
-            "03.Edwin"
-        ]
-    },
-    "EA1AUM": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PY1RV": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PY4EO": {
-        "total_eventos": 3,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "PU2MUS": {
+    "PY5POL": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
@@ -846,53 +887,55 @@
             "06.Micro"
         ]
     },
-    "LU5EQG": {
-        "total_eventos": 2,
+    "YD6SRR": {
+        "total_eventos": 5,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "PY5TJ": {
+    "SP1RAC": {
+        "total_eventos": 5,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "PY5SG": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
         ]
     },
-    "YD3ATQ": {
-        "total_eventos": 3,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "06.Micro"
-        ]
-    },
-    "LU4EOU": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "SP1RAC": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YC1IVW": {
+    "YD0BQO": {
         "total_eventos": 2,
         "eventos": [
             "03.Edwin",
-            "04.Fm"
+            "06.Micro"
+        ]
+    },
+    "EA1KBI": {
+        "total_eventos": 4,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro"
         ]
     },
     "YC2UGE": {
+        "total_eventos": 1,
+        "eventos": [
+            "03.Edwin"
+        ]
+    },
+    "YE3ESW": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
@@ -905,95 +948,88 @@
             "04.Fm"
         ]
     },
-    "EA7FP": {
+    "LU5EQG": {
+        "total_eventos": 2,
+        "eventos": [
+            "03.Edwin",
+            "04.Fm"
+        ]
+    },
+    "YD3ATQ": {
         "total_eventos": 4,
         "eventos": [
             "03.Edwin",
             "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YD6ATL": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "WP4TZM": {
-        "total_eventos": 4,
-        "eventos": [
-            "03.Edwin",
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "PY5POL": {
+    "YD7VTG": {
         "total_eventos": 1,
         "eventos": [
             "03.Edwin"
         ]
     },
-    "YC6AEE": {
-        "total_eventos": 1,
+    "PY4EO": {
+        "total_eventos": 4,
         "eventos": [
-            "04.Fm"
-        ]
-    },
-    "YY6RTJ": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4EAN": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "EA1FIR": {
-        "total_eventos": 2,
-        "eventos": [
+            "03.Edwin",
             "04.Fm",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YD6AAE": {
-        "total_eventos": 2,
+    "YD2UMH": {
+        "total_eventos": 3,
         "eventos": [
+            "03.Edwin",
             "04.Fm",
-            "06.Micro"
+            "05.Bipolar"
         ]
     },
-    "YD6ASC": {
-        "total_eventos": 1,
+    "YD6ATL": {
+        "total_eventos": 5,
         "eventos": [
-            "04.Fm"
+            "03.Edwin",
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "XE2JJC": {
+    "OA4EGY": {
         "total_eventos": 3,
         "eventos": [
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "07.Mosfet"
         ]
     },
-    "YD6BMN": {
-        "total_eventos": 1,
+    "YD7KVL": {
+        "total_eventos": 4,
         "eventos": [
-            "04.Fm"
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "LU8HRC": {
-        "total_eventos": 1,
+    "YN1ZJK": {
+        "total_eventos": 4,
         "eventos": [
-            "04.Fm"
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "CE7SOX": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "YD2UUR": {
@@ -1002,20 +1038,19 @@
             "04.Fm"
         ]
     },
-    "HC1M": {
-        "total_eventos": 3,
+    "HR2LED": {
+        "total_eventos": 4,
         "eventos": [
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YN1ZJK": {
-        "total_eventos": 3,
+    "YD6BMN": {
+        "total_eventos": 1,
         "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "04.Fm"
         ]
     },
     "HC2LL": {
@@ -1024,132 +1059,46 @@
             "04.Fm"
         ]
     },
-    "YB2XLM": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "EB4EWI": {
-        "total_eventos": 3,
+    "HC1M": {
+        "total_eventos": 4,
         "eventos": [
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "YY3CCL": {
-        "total_eventos": 2,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar"
-        ]
-    },
-    "YC1SNI": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD7KVL": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "OA4DOS": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "CE7SOX": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "OA4EGY": {
-        "total_eventos": 2,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar"
-        ]
-    },
-    "DA2SE": {
+    "YD6ASC": {
         "total_eventos": 1,
         "eventos": [
             "04.Fm"
         ]
     },
     "HQ2CAG": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YB0TNS": {
-        "total_eventos": 1,
-        "eventos": [
-            "04.Fm"
-        ]
-    },
-    "OA4DKS": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "CA3EQX": {
-        "total_eventos": 3,
+        "total_eventos": 4,
         "eventos": [
             "04.Fm",
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "HR2LED": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "KG4TRV": {
-        "total_eventos": 3,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6ANI": {
+    "YB2XLM": {
         "total_eventos": 1,
         "eventos": [
             "04.Fm"
         ]
     },
-    "YD6BUP": {
-        "total_eventos": 2,
-        "eventos": [
-            "04.Fm",
-            "05.Bipolar"
-        ]
-    },
-    "XE1JMB": {
+    "XE2JJC": {
         "total_eventos": 3,
         "eventos": [
             "04.Fm",
@@ -1165,7 +1114,71 @@
             "06.Micro"
         ]
     },
-    "XE1LAB": {
+    "XE1JMB": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "OA4EAN": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "YY3CCL": {
+        "total_eventos": 2,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YB0TNS": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "YD6BUP": {
+        "total_eventos": 2,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar"
+        ]
+    },
+    "YY6RTJ": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "EA1FIR": {
+        "total_eventos": 3,
+        "eventos": [
+            "04.Fm",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "OA4DKS": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "LU8HRC": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "EB4EWI": {
         "total_eventos": 3,
         "eventos": [
             "04.Fm",
@@ -1173,10 +1186,64 @@
             "06.Micro"
         ]
     },
-    "YD2UMD": {
+    "KG4TRV": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6ANI": {
         "total_eventos": 1,
         "eventos": [
-            "05.Bipolar"
+            "04.Fm"
+        ]
+    },
+    "YC6AEE": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "OA4DOS": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD6AAE": {
+        "total_eventos": 2,
+        "eventos": [
+            "04.Fm",
+            "06.Micro"
+        ]
+    },
+    "DA2SE": {
+        "total_eventos": 1,
+        "eventos": [
+            "04.Fm"
+        ]
+    },
+    "XE1LAB": {
+        "total_eventos": 4,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YC1SNI": {
+        "total_eventos": 3,
+        "eventos": [
+            "04.Fm",
+            "05.Bipolar",
+            "06.Micro"
         ]
     },
     "YD5HBH": {
@@ -1185,25 +1252,12 @@
             "05.Bipolar"
         ]
     },
-    "YC3CCG": {
-        "total_eventos": 2,
-        "eventos": [
-            "05.Bipolar",
-            "06.Micro"
-        ]
-    },
     "YY4BAJ": {
-        "total_eventos": 2,
+        "total_eventos": 3,
         "eventos": [
             "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "YD6AWR": {
-        "total_eventos": 2,
-        "eventos": [
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "EA8CPU": {
@@ -1212,25 +1266,42 @@
             "05.Bipolar"
         ]
     },
-    "LU4HEP": {
-        "total_eventos": 2,
+    "YD6AWR": {
+        "total_eventos": 3,
         "eventos": [
             "05.Bipolar",
-            "06.Micro"
-        ]
-    },
-    "OA4DFM": {
-        "total_eventos": 2,
-        "eventos": [
-            "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "CE8TDO": {
-        "total_eventos": 2,
+        "total_eventos": 3,
         "eventos": [
             "05.Bipolar",
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "LU4HEP": {
+        "total_eventos": 3,
+        "eventos": [
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "YD2UMD": {
+        "total_eventos": 1,
+        "eventos": [
+            "05.Bipolar"
+        ]
+    },
+    "OA4DFM": {
+        "total_eventos": 3,
+        "eventos": [
+            "05.Bipolar",
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "HC6AC": {
@@ -1245,37 +1316,42 @@
             "05.Bipolar"
         ]
     },
-    "HK4THN": {
-        "total_eventos": 1,
+    "YC3CCG": {
+        "total_eventos": 2,
         "eventos": [
+            "05.Bipolar",
             "06.Micro"
         ]
     },
-    "EA2RE": {
-        "total_eventos": 1,
+    "DW3MWA": {
+        "total_eventos": 2,
         "eventos": [
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
-    "HJ5RTD": {
-        "total_eventos": 1,
+    "EC1ABW": {
+        "total_eventos": 2,
         "eventos": [
-            "06.Micro"
-        ]
-    },
-    "OA4DFD": {
-        "total_eventos": 1,
-        "eventos": [
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "LU6MDG": {
-        "total_eventos": 1,
+        "total_eventos": 2,
         "eventos": [
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "CT1FOQ": {
+        "total_eventos": 2,
+        "eventos": [
+            "06.Micro",
+            "07.Mosfet"
+        ]
+    },
+    "EA2RE": {
         "total_eventos": 1,
         "eventos": [
             "06.Micro"
@@ -1287,22 +1363,89 @@
             "06.Micro"
         ]
     },
-    "DW3MWA": {
+    "HJ5RTD": {
         "total_eventos": 1,
         "eventos": [
             "06.Micro"
         ]
     },
-    "EC1ABW": {
-        "total_eventos": 1,
+    "HK4THN": {
+        "total_eventos": 2,
         "eventos": [
-            "06.Micro"
+            "06.Micro",
+            "07.Mosfet"
         ]
     },
     "LU1JLO": {
         "total_eventos": 1,
         "eventos": [
             "06.Micro"
+        ]
+    },
+    "OA4DFD": {
+        "total_eventos": 1,
+        "eventos": [
+            "06.Micro"
+        ]
+    },
+    "EA1RCD": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "EA5ELL": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "DO9CDS": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "LU2DHU": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "YF3CJU": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "XE2ALF": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "XE3MHM": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "EA1DZR": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "EA3HCR": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
+        ]
+    },
+    "CS7CHQ": {
+        "total_eventos": 1,
+        "eventos": [
+            "07.Mosfet"
         ]
     }
 }
